@@ -1,0 +1,107 @@
+﻿Name,Text
+System prompt (tagger),"You label Indian job and internship posts for a student career platform.
+
+For every post, return:
+- role: the single best-fitting function from this list: [""Software Engineering"", ""Data Science & Analytics"", ""AI / Machine Learning"", ""Product Management"", ""Design (UI/UX/Graphic)"", ""Marketing & Growth"", ""Sales & Business Development"", ""Customer Support & Success"", ""Finance & Accounting"", ""HR & Recruiting"", ""Operations & Supply Chain"", ""Content & Writing"", ""Consulting & Strategy"", ""Core Engineering (Mech/Civil/Electrical)"", ""Legal & Compliance"", ""Other""]
+  Judge by what the person will actually do day to day, not by buzzwords.
+  ""Business Analyst"" doing reporting/SQL -> Data Science & Analytics. ""SDE""/""Developer"" -> Software Engineering.
+  ML/LLM/GenAI building roles -> AI / Machine Learning. Telecalling / inside sales -> Sales & Business Development.
+- city: the primary work city from this list: [""Bengaluru"", ""Mumbai"", ""Delhi NCR"", ""Hyderabad"", ""Pune"", ""Chennai"", ""Kolkata"", ""Ahmedabad"", ""Jaipur"", ""Chandigarh"", ""Indore"", ""Kochi"", ""Coimbatore"", ""Lucknow"", ""Bhubaneswar"", ""Nagpur"", ""Surat"", ""Vadodara"", ""Thiruvananthapuram"", ""Visakhapatnam"", ""Other India"", ""Remote"", ""Multiple""]
+  Map aliases: Bangalore -> Bengaluru; Gurgaon/Gurugram/Noida/New Delhi/Faridabad/Ghaziabad -> Delhi NCR;
+  Navi Mumbai/Thane -> Mumbai; Secunderabad -> Hyderabad; Trivandrum -> Thiruvananthapuram.
+  Work-from-home with no office city -> Remote. Two or more different cities -> Multiple.
+  An Indian city not in the list -> Other India.
+- is_fresher: true if a fresh graduate or current student could get it (internship, trainee,
+  0-1 or 0-2 years of experience, or no experience requirement stated). false if it needs 2+ years.
+
+Return one result per post, using the post's id exactly as given."
+User prompt template,"Label these posts:
+
+<post id=""0"">
+title: ...
+company: ...
+type: Job|Internship
+location: ...
+description: first 700 chars
+</post>
+... (20 posts per call)"
+Output JSON schema,"{
+ ""type"": ""object"",
+ ""properties"": {
+  ""results"": {
+   ""type"": ""array"",
+   ""items"": {
+    ""type"": ""object"",
+    ""properties"": {
+     ""id"": {
+      ""type"": ""string""
+     },
+     ""role"": {
+      ""type"": ""string"",
+      ""enum"": [
+       ""Software Engineering"",
+       ""Data Science & Analytics"",
+       ""AI / Machine Learning"",
+       ""Product Management"",
+       ""Design (UI/UX/Graphic)"",
+       ""Marketing & Growth"",
+       ""Sales & Business Development"",
+       ""Customer Support & Success"",
+       ""Finance & Accounting"",
+       ""HR & Recruiting"",
+       ""Operations & Supply Chain"",
+       ""Content & Writing"",
+       ""Consulting & Strategy"",
+       ""Core Engineering (Mech/Civil/Electrical)"",
+       ""Legal & Compliance"",
+       ""Other""
+      ]
+     },
+     ""city"": {
+      ""type"": ""string"",
+      ""enum"": [
+       ""Bengaluru"",
+       ""Mumbai"",
+       ""Delhi NCR"",
+       ""Hyderabad"",
+       ""Pune"",
+       ""Chennai"",
+       ""Kolkata"",
+       ""Ahmedabad"",
+       ""Jaipur"",
+       ""Chandigarh"",
+       ""Indore"",
+       ""Kochi"",
+       ""Coimbatore"",
+       ""Lucknow"",
+       ""Bhubaneswar"",
+       ""Nagpur"",
+       ""Surat"",
+       ""Vadodara"",
+       ""Thiruvananthapuram"",
+       ""Visakhapatnam"",
+       ""Other India"",
+       ""Remote"",
+       ""Multiple""
+      ]
+     },
+     ""is_fresher"": {
+      ""type"": ""boolean""
+     }
+    },
+    ""required"": [
+     ""id"",
+     ""role"",
+     ""city"",
+     ""is_fresher""
+    ],
+    ""additionalProperties"": false
+   }
+  }
+ },
+ ""required"": [
+  ""results""
+ ],
+ ""additionalProperties"": false
+}"
+Settings,"model=gemini-3.5-flash-lite, response_mime_type=application/json, response_json_schema=<schema above>, thinking_level=low, max_output_tokens=8000"

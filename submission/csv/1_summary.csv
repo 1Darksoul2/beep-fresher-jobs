@@ -1,0 +1,20 @@
+﻿Item,Value
+Live site,https://1darksoul2.github.io/beep-fresher-jobs/
+Repo,https://github.com/1Darksoul2/beep-fresher-jobs
+Posts published,910
+Companies,654
+Posts by source,"Unstop 865, Lever 24, Greenhouse 19, Ashby 2"
+Tagging model,"gemini-3.5-flash-lite (thinking_level=low), 20 posts per call, JSON-schema output"
+,
+"ACCURACY (50 random posts, fixed seed 20261118)",strict = ambiguous counted wrong; lenient = ambiguous counted right
+Role accuracy,"strict 94% / lenient 100%  (0 clear errors, 3 ambiguous)"
+City accuracy,"strict 92% / lenient 100%  (0 clear errors, 4 ambiguous)"
+Fresher-flag accuracy,"strict 88% / lenient 96%  (2 clear errors, 4 ambiguous)"
+,
+"COST (paid-tier prices, all tagging runs combined)",
+Posts tagged,1011
+Tokens in / out,"186,575 / 38,685  (thinking tokens: 0)"
+Total cost (USD),0.1527
+"Cost per 1,000 posts (USD)",0.151
+Price used,"$0.30 per 1M input tokens, $2.50 per 1M output tokens (gemini-3.5-flash-lite). Free tier: $0."
+Daily cost at steady state,Only NEW posts are tagged (cache by post id): typically well under $0.02 per day.

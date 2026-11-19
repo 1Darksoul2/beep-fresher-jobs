@@ -1,0 +1,6 @@
+﻿Tool,Used for
+"Claude Code (Claude, Anthropic)","Pair-programmed the pipeline: source research, collectors, de-duplication, static site, GitHub Actions workflow, eval scripts. I chose the sources, the respect-the-terms policy and the taxonomy; the code was written together."
+Claude (same session),"First-pass review of the 50-post sample against the full post text: flagged clear errors and ambiguous cases. These judgments are AI-assisted, not a fully independent human check."
+Google Gemini 3.5 Flash-Lite,"Runtime LLM: tags every post with role, city and is_fresher."
+Google AI Studio,API key and pricing reference.
+GitHub Actions + Pages,Daily 06:00 IST refresh and free static hosting.

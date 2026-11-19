@@ -1,0 +1,5 @@
+﻿finished_at,seconds,collected,kept after dedupe,removed by dedupe,dedupe reasons,published,LLM posts tagged,LLM cost USD
+2026-11-18T14:06:24+00:00,98.4,962,934,28,"{""uid"": 7, ""url"": 16, ""key"": 4, ""fuzzy"": 1}",934,,
+2026-11-18T14:45:25+00:00,1867,966,936,30,"{""uid"": 9, ""url"": 16, ""key"": 4, ""fuzzy"": 1}",909,936,0.14078
+2026-11-19T09:06:51+00:00,298.8,967,934,33,"{""uid"": 8, ""url"": 17, ""key"": 7, ""fuzzy"": 1}",907,74,0.01158
+2026-11-19T09:12:53+00:00,92,964,937,27,"{""uid"": 2, ""url"": 17, ""key"": 7, ""fuzzy"": 1}",910,1,0.00033
