@@ -1,0 +1,200 @@
+{
+ "boards": {
+  "greenhouse": [
+   "airbnb",
+   "coinbase",
+   "databricks",
+   "druva",
+   "elastic",
+   "gitlab",
+   "glance",
+   "groww",
+   "hackerrank",
+   "highradius",
+   "inmobi",
+   "mongodb",
+   "observeai",
+   "okta",
+   "pubmatic",
+   "sigmoid",
+   "stripe",
+   "twilio",
+   "zscaler"
+  ],
+  "lever": [
+   "cred",
+   "hevodata",
+   "meesho",
+   "mindtickle",
+   "nium",
+   "paytm",
+   "pocketfm",
+   "zeta"
+  ],
+  "ashby": [
+   "atlan",
+   "sarvam",
+   "spotdraft"
+  ],
+  "workable": []
+ },
+ "detail": {
+  "greenhouse": {
+   "Groww": {
+    "slug": "groww",
+    "jobs": 9,
+    "india_jobs": 9
+   },
+   "Druva": {
+    "slug": "druva",
+    "jobs": 27,
+    "india_jobs": 11
+   },
+   "Observe.AI": {
+    "slug": "observeai",
+    "jobs": 10,
+    "india_jobs": 5
+   },
+   "HighRadius": {
+    "slug": "highradius",
+    "jobs": 68,
+    "india_jobs": 45
+   },
+   "Sigmoid": {
+    "slug": "sigmoid",
+    "jobs": 43,
+    "india_jobs": 38
+   },
+   "InMobi": {
+    "slug": "inmobi",
+    "jobs": 75,
+    "india_jobs": 45
+   },
+   "Glance": {
+    "slug": "glance",
+    "jobs": 27,
+    "india_jobs": 15
+   },
+   "PubMatic": {
+    "slug": "pubmatic",
+    "jobs": 77,
+    "india_jobs": 30
+   },
+   "HackerRank": {
+    "slug": "hackerrank",
+    "jobs": 33,
+    "india_jobs": 18
+   },
+   "Stripe": {
+    "slug": "stripe",
+    "jobs": 791,
+    "india_jobs": 45
+   },
+   "Coinbase": {
+    "slug": "coinbase",
+    "jobs": 255,
+    "india_jobs": 10
+   },
+   "Okta": {
+    "slug": "okta",
+    "jobs": 358,
+    "india_jobs": 104
+   },
+   "MongoDB": {
+    "slug": "mongodb",
+    "jobs": 396,
+    "india_jobs": 71
+   },
+   "Elastic": {
+    "slug": "elastic",
+    "jobs": 374,
+    "india_jobs": 17
+   },
+   "GitLab": {
+    "slug": "gitlab",
+    "jobs": 250,
+    "india_jobs": 33
+   },
+   "Databricks": {
+    "slug": "databricks",
+    "jobs": 897,
+    "india_jobs": 79
+   },
+   "Twilio": {
+    "slug": "twilio",
+    "jobs": 113,
+    "india_jobs": 15
+   },
+   "Airbnb": {
+    "slug": "airbnb",
+    "jobs": 199,
+    "india_jobs": 12
+   },
+   "Zscaler": {
+    "slug": "zscaler",
+    "jobs": 386,
+    "india_jobs": 91
+   }
+  },
+  "lever": {
+   "CRED": {
+    "slug": "cred",
+    "jobs": 13,
+    "india_jobs": 12
+   },
+   "Paytm": {
+    "slug": "paytm",
+    "jobs": 194,
+    "india_jobs": 169
+   },
+   "Zeta": {
+    "slug": "zeta",
+    "jobs": 30,
+    "india_jobs": 25
+   },
+   "Nium": {
+    "slug": "nium",
+    "jobs": 32,
+    "india_jobs": 14
+   },
+   "Meesho": {
+    "slug": "meesho",
+    "jobs": 47,
+    "india_jobs": 47
+   },
+   "Pocket FM": {
+    "slug": "pocketfm",
+    "jobs": 12,
+    "india_jobs": 2
+   },
+   "Mindtickle": {
+    "slug": "mindtickle",
+    "jobs": 20,
+    "india_jobs": 17
+   },
+   "Hevo Data": {
+    "slug": "hevodata",
+    "jobs": 40,
+    "india_jobs": 39
+   }
+  },
+  "ashby": {
+   "Atlan": {
+    "slug": "atlan",
+    "jobs": 8,
+    "india_jobs": 3
+   },
+   "SpotDraft": {
+    "slug": "spotdraft",
+    "jobs": 18,
+    "india_jobs": 13
+   },
+   "Sarvam": {
+    "slug": "sarvam",
+    "jobs": 48,
+    "india_jobs": 48
+   }
+  },
+  "workable": {}
+ }
+}

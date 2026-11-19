@@ -1,0 +1,222 @@
+# Companies that hire freshers in India. One per line. Run: python -m pipeline.discover
+# Fintech
+Razorpay
+Groww
+CRED
+Paytm
+PhonePe
+Zerodha
+Upstox
+Jupiter
+Slice
+Navi
+Jar
+Fi Money
+OneCard
+Zeta
+Nium
+Juspay
+Cashfree
+Pine Labs
+BharatPe
+Open
+Smallcase
+INDmoney
+Khatabook
+OkCredit
+KreditBee
+MoneyView
+Lendingkart
+PayU
+Perfios
+Setu
+Signzy
+M2P Fintech
+Acko
+Digit Insurance
+PolicyBazaar
+Ditto Insurance
+Plum
+Onsurity
+# Consumer / commerce
+Meesho
+Flipkart
+Myntra
+Swiggy
+Zomato
+Zepto
+Blinkit
+BigBasket
+Dunzo
+Urban Company
+Nykaa
+Lenskart
+Mamaearth
+Boat
+FirstCry
+Licious
+Country Delight
+Rapido
+Ola
+Cars24
+Spinny
+CarDekho
+OYO
+MakeMyTrip
+ixigo
+Cleartrip
+Dream11
+MPL
+Games24x7
+WinZO
+ShareChat
+Dailyhunt
+Pocket FM
+Kuku FM
+Pratilipi
+InShorts
+Livspace
+NoBroker
+NestAway
+Housing
+Shiprocket
+Delhivery
+Rivigo
+BlackBuck
+Porter
+Udaan
+Jumbotail
+DealShare
+CityMall
+Apna
+WorkIndia
+# SaaS / dev tools / AI
+Freshworks
+Zoho
+Postman
+BrowserStack
+Chargebee
+CleverTap
+MoEngage
+WebEngage
+Hasura
+Atlan
+Innovaccer
+Druva
+Whatfix
+Darwinbox
+Keka
+LeadSquared
+Exotel
+Haptik
+Yellow.ai
+Gupshup
+Uniphore
+Observe.AI
+Sprinklr
+ThoughtSpot
+HighRadius
+Icertis
+Capillary
+Mindtickle
+Zluri
+Rocketlane
+SpotDraft
+Hevo Data
+Fyle
+Zenduty
+Sarvam
+Krutrim
+Ola Krutrim
+Gnani
+Mad Street Den
+Fractal
+Tiger Analytics
+Mu Sigma
+LatentView
+Quantiphi
+Sigmoid
+InMobi
+Glance
+PubMatic
+Media.net
+HackerRank
+HackerEarth
+Unacademy
+upGrad
+PhysicsWallah
+Vedantu
+Scaler
+Eruditus
+Simplilearn
+Classplus
+Teachmint
+LEAD School
+Cuemath
+Leap
+Toppr
+Practo
+PharmEasy
+1mg
+Cult.fit
+HealthifyMe
+Innov8
+Ather Energy
+Ola Electric
+Agnikul
+Skyroot
+Zetwerk
+OfBusiness
+Moglix
+Infra.Market
+Ninjacart
+DeHaat
+AgroStar
+Country Delight
+Lohum
+# Global companies with big India teams
+Stripe
+Atlassian
+Uber
+Rippling
+Coinbase
+Okta
+MongoDB
+Elastic
+GitLab
+Databricks
+Twilio
+Cloudflare
+Confluent
+Nutanix
+Intuit
+Adobe
+Salesforce
+ServiceNow
+Workday
+Visa
+Mastercard
+PayPal
+American Express
+Goldman Sachs
+JPMorgan
+Deutsche Bank
+Wells Fargo
+Walmart
+Target
+Lowe's
+Tesco
+Expedia
+Booking
+Grab
+Gojek
+Airbnb
+Canva
+Zscaler
+Palo Alto Networks
+CrowdStrike
+DE Shaw
+Tower Research
+Graviton
+Optiver
+Quadeye

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fresher Jobs India</title>
+  <meta name="description" content="Fresher jobs and internships in India, collected from public sources, de-duplicated and tagged by role and city with an LLM. Refreshed daily.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <h1>Fresher Jobs India</h1>
+      <p class="sub">Entry-level jobs and internships from public sources, de-duplicated and tagged by role and city. <span id="updated">Loading…</span></p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="controls" aria-label="Filters">
+      <input id="q" type="search" placeholder="Search title, company, skill…" autocomplete="off" aria-label="Search">
+      <select id="role" aria-label="Role"><option value="">All roles</option></select>
+      <select id="city" aria-label="City"><option value="">All cities</option></select>
+      <select id="type" aria-label="Type">
+        <option value="">Jobs + internships</option>
+        <option value="Job">Jobs</option>
+        <option value="Internship">Internships</option>
+      </select>
+      <select id="source" aria-label="Source"><option value="">All sources</option></select>
+    </section>
+    <p id="sources" class="sources"></p>
+
+    <div class="meta">
+      <span id="count"></span>
+      <button id="reset" type="button" class="link">Clear filters</button>
+    </div>
+
+    <ul id="list" class="list" aria-live="polite"></ul>
+    <button id="more" type="button" class="more" hidden>Show more</button>
+  </main>
+
+  <footer class="wrap foot">
+    Sources: Unstop public API, plus company careers pages through the public Greenhouse, Lever, Ashby and Workable job-board APIs. Only sources whose robots.txt and terms allow automated access. Tags by <span id="model">an LLM</span>.
+    <a href="https://github.com/" id="repo">Source code</a>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
