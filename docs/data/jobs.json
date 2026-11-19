@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-19T09:06:51+00:00",
- "count": 907,
+ "updated_at": "2026-11-19T09:12:53+00:00",
+ "count": 910,
  "roles": [
   "Software Engineering",
   "Data Science & Analytics",
@@ -46,7 +46,7 @@
  ],
  "by_source": {
   "Lever": 24,
-  "Unstop": 862,
+  "Unstop": 865,
   "Greenhouse": 19,
   "Ashby": 2
  },
@@ -61,6 +61,18 @@
    "posted_at": "2026-11-19T08:51:58Z",
    "location_raw": "Noida, Uttar Pradesh",
    "role": "Software Engineering",
+   "city": "Delhi NCR"
+  },
+  {
+   "id": "unstop:1818430",
+   "title": "Client Support Apprentice",
+   "company": "S&P Global",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/client-support-apprentice-sp-global-1818430",
+   "posted_at": "2026-11-19 14:34:56 GMT+0530",
+   "location_raw": "Gurgaon",
+   "role": "Customer Support & Success",
    "city": "Delhi NCR"
   },
   {
@@ -1408,6 +1420,30 @@
    "city": "Other India"
   },
   {
+   "id": "unstop:1815305",
+   "title": "Business Development Executive (BDE)",
+   "company": "Desire Infoweb",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/business-development-executive-bde-desire-infoweb-1815305",
+   "posted_at": "2026-11-18 12:24:16 GMT+0530",
+   "location_raw": "Ahmedabad",
+   "role": "Sales & Business Development",
+   "city": "Ahmedabad"
+  },
+  {
+   "id": "unstop:1817400",
+   "title": "Operations Executive",
+   "company": "Intugine Technologies",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/operations-executive-intugine-technologies-1817400",
+   "posted_at": "2026-11-18 12:24:04 GMT+0530",
+   "location_raw": "Delhi, Mumbai",
+   "role": "Operations & Supply Chain",
+   "city": "Multiple"
+  },
+  {
    "id": "unstop:1817401",
    "title": "HR Internship",
    "company": "News Leader",
@@ -2296,6 +2332,18 @@
    "city": "Delhi NCR"
   },
   {
+   "id": "unstop:1815762",
+   "title": "Capital Market Analyst Internship",
+   "company": "Pipraiser",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/capital-market-analyst-internship-pipraiser-1815762",
+   "posted_at": "2026-11-17 16:07:34 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Finance & Accounting",
+   "city": "Remote"
+  },
+  {
    "id": "unstop:1815862",
    "title": "Business Development Internship",
    "company": "Growcite Talent Management India Private Limited",
@@ -2558,6 +2606,18 @@
    "location_raw": "New Delhi",
    "role": "Customer Support & Success",
    "city": "Delhi NCR"
+  },
+  {
+   "id": "unstop:1815763",
+   "title": "Talent Acquisition Internship",
+   "company": "Gritty-tech",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/talent-acquisition-internship-gritty-tech-1815763",
+   "posted_at": "2026-11-17 14:07:50 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "HR & Recruiting",
+   "city": "Remote"
   },
   {
    "id": "unstop:1814069",
@@ -2954,30 +3014,6 @@
    "location_raw": "Kolkata",
    "role": "Sales & Business Development",
    "city": "Kolkata"
-  },
-  {
-   "id": "unstop:1814535",
-   "title": "Sales Manager I Pune",
-   "company": "Swiggy",
-   "type": "Job",
-   "source": "Unstop",
-   "url": "https://unstop.com/jobs/sales-manager-i-pune-swiggy-1814535",
-   "posted_at": "2026-11-17 11:35:13 GMT+0530",
-   "location_raw": "Pune",
-   "role": "Sales & Business Development",
-   "city": "Pune"
-  },
-  {
-   "id": "unstop:1814520",
-   "title": "Facilities coordinator",
-   "company": "Swiggy",
-   "type": "Job",
-   "source": "Unstop",
-   "url": "https://unstop.com/jobs/facilities-coordinator-swiggy-1814520",
-   "posted_at": "2026-11-17 11:35:10 GMT+0530",
-   "location_raw": "Gurgaon",
-   "role": "Operations & Supply Chain",
-   "city": "Delhi NCR"
   },
   {
    "id": "unstop:1814230",
@@ -4466,18 +4502,6 @@
    "location_raw": "Remote (work from home)",
    "role": "Sales & Business Development",
    "city": "Remote"
-  },
-  {
-   "id": "unstop:1812382",
-   "title": "Accounts Executive",
-   "company": "Dazzle Exhibitions and Events",
-   "type": "Job",
-   "source": "Unstop",
-   "url": "https://unstop.com/jobs/accounts-executive-dazzle-exhibitions-and-events-1812382",
-   "posted_at": "2026-11-16 00:52:06 GMT+0530",
-   "location_raw": "Ghaziabad",
-   "role": "Finance & Accounting",
-   "city": "Delhi NCR"
   },
   {
    "id": "unstop:1812394",
@@ -6340,6 +6364,18 @@
    "city": "Remote"
   },
   {
+   "id": "unstop:1807619",
+   "title": "Business Development Internship",
+   "company": "TechBairn",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/business-development-internship-techbairn-1807619",
+   "posted_at": "2026-11-12 23:14:32 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Sales & Business Development",
+   "city": "Remote"
+  },
+  {
    "id": "unstop:1807617",
    "title": "Marketing Internship",
    "company": "TechBairn",
@@ -6484,6 +6520,18 @@
    "city": "Mumbai"
   },
   {
+   "id": "unstop:1807269",
+   "title": "Digital Marketing Internship",
+   "company": "Kuberzo",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/digital-marketing-internship-kuberzo-1807269",
+   "posted_at": "2026-11-12 18:37:47 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Marketing & Growth",
+   "city": "Remote"
+  },
+  {
    "id": "unstop:1807028",
    "title": "Sales and Marketing Internship",
    "company": "Sionx Innovations Private Limited",
@@ -6518,6 +6566,18 @@
    "location_raw": "Bangalore",
    "role": "Sales & Business Development",
    "city": "Bengaluru"
+  },
+  {
+   "id": "unstop:1807016",
+   "title": "Junior E-Commerce Executive",
+   "company": "CN Business Services Private Limited",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/junior-e-commerce-executive-cn-business-services-private-limited-1807016",
+   "posted_at": "2026-11-12 18:19:27 GMT+0530",
+   "location_raw": "Mumbai",
+   "role": "Operations & Supply Chain",
+   "city": "Mumbai"
   },
   {
    "id": "unstop:1807029",
@@ -7960,18 +8020,6 @@
    "city": "Remote"
   },
   {
-   "id": "unstop:1803891",
-   "title": "AI/ML Internship",
-   "company": "Codeatrix",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/aiml-internship-codeatrix-1803891",
-   "posted_at": "2026-11-10 22:22:36 GMT+0530",
-   "location_raw": "Remote (work from home)",
-   "role": "AI / Machine Learning",
-   "city": "Remote"
-  },
-  {
    "id": "unstop:1794473",
    "title": "Data Science Internship",
    "company": "Codeatrix",
@@ -8476,18 +8524,6 @@
    "city": "Bengaluru"
   },
   {
-   "id": "unstop:1803903",
-   "title": "Inside Sales Executive",
-   "company": "NoBroker",
-   "type": "Job",
-   "source": "Unstop",
-   "url": "https://unstop.com/jobs/inside-sales-executive-nobroker-1803903",
-   "posted_at": "2026-11-10 12:57:38 GMT+0530",
-   "location_raw": "Pune",
-   "role": "Sales & Business Development",
-   "city": "Pune"
-  },
-  {
    "id": "unstop:1803899",
    "title": "Web Development Internship",
    "company": "Codeatrix",
@@ -8522,18 +8558,6 @@
    "location_raw": "Bangalore",
    "role": "Marketing & Growth",
    "city": "Bengaluru"
-  },
-  {
-   "id": "unstop:1803836",
-   "title": "Sales Representative",
-   "company": "Asterisk Healthcare",
-   "type": "Job",
-   "source": "Unstop",
-   "url": "https://unstop.com/jobs/sales-representative-asterisk-healthcare-1803836",
-   "posted_at": "2026-11-10 12:33:01 GMT+0530",
-   "location_raw": "Chandigarh",
-   "role": "Sales & Business Development",
-   "city": "Chandigarh"
   },
   {
    "id": "unstop:1803841",
@@ -8749,6 +8773,18 @@
    "posted_at": "2026-11-09 18:30:18 GMT+0530",
    "location_raw": "Noida",
    "role": "Finance & Accounting",
+   "city": "Delhi NCR"
+  },
+  {
+   "id": "unstop:1802475",
+   "title": "Business Development Internship",
+   "company": "Graveiens Eduservices Private Limited",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/business-development-internship-graveiens-eduservices-private-limited-1802475",
+   "posted_at": "2026-11-09 18:26:10 GMT+0530",
+   "location_raw": "Noida",
+   "role": "Sales & Business Development",
    "city": "Delhi NCR"
   },
   {

@@ -6058,5 +6058,11 @@
   "city": "Delhi NCR",
   "is_fresher": true,
   "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1818430": {
+  "role": "Customer Support & Success",
+  "city": "Delhi NCR",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
  }
 }
