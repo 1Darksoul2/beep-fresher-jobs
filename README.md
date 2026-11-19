@@ -2,7 +2,7 @@
 
 A live page listing fresher jobs and internships in India. Every day it collects posts from public sources, removes duplicates, uses an LLM to tag each post by role and city, and republishes the page on its own.
 
-**Live:** _add GitHub Pages URL_ · **Data and prompts:** _add sheet link_
+**Live:** https://1darksoul2.github.io/beep-fresher-jobs/ · **Data and prompts:** _add sheet link_
 
 ## Architecture
 
