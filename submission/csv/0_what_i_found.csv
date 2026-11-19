@@ -1,0 +1,13 @@
+﻿WHAT I FOUND  (draft. Rewrite in your own words before submitting.)
+""
+"I collected 910 fresher jobs and internships from 654 companies. 95% come from Unstop. Naukri, Indeed, Glassdoor, LinkedIn and Internshala do not allow automated collection (robots.txt and terms), so I left them out on purpose."
+""
+"Company careers pages added far fewer fresher posts than I expected: on the company boards I checked, 87 of 812 India jobs were entry-level, because firms like Stripe and Databricks hire senior people in India. Unstop is built for students, so that is where the volume is."
+""
+"Tagging with Gemini 3.5 Flash-Lite costs about $0.15 per 1,000 posts (paid prices, 1,011 posts, $0.15 total; $0 on the free tier). Only new posts are tagged each day."
+""
+"Accuracy on 50 random posts: role 94%, city 92%, fresher flag 88% (strict; lenient 100% / 100% / 96%). The fresher flag is the weakest: it marked a '3-4 years' role as fresher-friendly and rejected a 'freshers to 6 years' role. City errors are mostly Mohali (next to Chandigarh) and posts with no location. I would add a 'Not stated' city."
+""
+"What broke: (1) my company finder matched wrong companies with the same name (Porter, Navi, Slice) until I required at least one India job; (2) Gemini returned 'overloaded' errors, so the first tagging run took 31 minutes; retries and splitting failed batches recovered every post; (3) some Unstop titles contain broken characters from the source, which I have not cleaned."
+""
+Links:  Live site: https://1darksoul2.github.io/beep-fresher-jobs/    Repo: https://github.com/1Darksoul2/beep-fresher-jobs

@@ -106,5 +106,55 @@ sheet("Run stats", ["finished_at", "seconds", "collected", "kept after dedupe", 
         (r.get("tagging") or {}).get("posts"), (r.get("tagging") or {}).get("cost_usd")] for r in runs],
       [26, 10, 12, 16, 16, 44, 10, 16, 12])
 
+# ---- Findings tab (draft: the candidate must rewrite in their own words) ----
+fs = wb.create_sheet("What I found", 0)
+fs.column_dimensions["A"].width = 150
+findings = [
+    "WHAT I FOUND  (draft. Rewrite in your own words before submitting.)",
+    "",
+    f"I collected {jobs['count']} fresher jobs and internships from {len({j['company'].lower() for j in jobs['jobs']})} companies. "
+    f"{by_src.get('Unstop', 0) / jobs['count']:.0%} come from Unstop. Naukri, Indeed, Glassdoor, LinkedIn and Internshala do not allow automated collection (robots.txt and terms), so I left them out on purpose.",
+    "",
+    "Company careers pages added far fewer fresher posts than I expected: on the company boards I checked, 87 of 812 India jobs were entry-level, because firms like Stripe and Databricks hire senior people in India. Unstop is built for students, so that is where the volume is.",
+    "",
+    f"Tagging with Gemini 3.5 Flash-Lite costs about ${cost / posts * 1000:.2f} per 1,000 posts (paid prices, {posts:,} posts, ${cost:.2f} total; $0 on the free tier). Only new posts are tagged each day.",
+    "",
+    f"Accuracy on 50 random posts: role {role[0]:.0%}, city {city[0]:.0%}, fresher flag {fresh[0]:.0%} (strict; lenient {role[1]:.0%} / {city[1]:.0%} / {fresh[1]:.0%}). "
+    "The fresher flag is the weakest: it marked a '3-4 years' role as fresher-friendly and rejected a 'freshers to 6 years' role. "
+    "City errors are mostly Mohali (next to Chandigarh) and posts with no location. I would add a 'Not stated' city.",
+    "",
+    "What broke: (1) my company finder matched wrong companies with the same name (Porter, Navi, Slice) until I required at least one India job; "
+    "(2) Gemini returned 'overloaded' errors, so the first tagging run took 31 minutes; retries and splitting failed batches recovered every post; "
+    "(3) some Unstop titles contain broken characters from the source, which I have not cleaned.",
+    "",
+    "Links:  Live site: https://1darksoul2.github.io/beep-fresher-jobs/    Repo: https://github.com/1Darksoul2/beep-fresher-jobs",
+]
+for row in findings:
+    fs.append([row])
+for r in fs.iter_rows():
+    r[0].alignment = Alignment(wrap_text=True, vertical="top")
+fs["A1"].font = Font(bold=True, color="C00000")
+
+# ---- Screenshots tab ----
+from openpyxl.drawing.image import Image as XLImage
+from PIL import Image as PILImage
+ss = wb.create_sheet("Screenshots")
+ss.column_dimensions["A"].width = 120
+caps = [
+    ("01_live_site_all.png", "1. Live site: 910 posts, source split (Unstop 95%), search and role / city / type / source filters"),
+    ("02_live_site_filtered.png", "2. Live site filtered to Software Engineering + Bengaluru (34 posts), each card shows LLM role and city tags"),
+    ("03_github_actions_green_run.png", "3. GitHub Actions: the 'Daily refresh' workflow ran green (1m 49s); it is scheduled for 06:00 IST every day"),
+    ("04_github_repo.png", "4. Public GitHub repo with the pipeline, eval scripts and submission files"),
+    ("05_accuracy_errors_and_ambiguous.png", "5. Accuracy check: scores for 50 random posts, with every error and ambiguous case listed"),
+]
+row = 1
+for fn, cap in caps:
+    ss.cell(row, 1, cap).font = Font(bold=True)
+    path = ROOT / "submission/screenshots" / fn
+    w, h = PILImage.open(path).size
+    img = XLImage(str(path)); img.width, img.height = 700, int(h * 700 / w)
+    ss.add_image(img, f"A{row + 1}")
+    row += int(img.height / 20) + 4
+
 wb.save(OUT)
 print("saved", OUT, "| cost per 1k:", round(cost / posts * 1000, 3), "| posts tagged:", posts, "| role/city/fresh strict:", f"{role[0]:.0%}/{city[0]:.0%}/{fresh[0]:.0%}")
