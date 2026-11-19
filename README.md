@@ -45,11 +45,27 @@ python eval/score.py
 
 Cost is computed from real token usage on every run (input + output + thinking tokens, at paid-tier prices; the free tier costs $0). See `docs/data/last_run.json` → `tagging.cost_per_1000_posts_usd`.
 
-| Metric | Value |
+Sample: 50 random posts (seed 20261118), each read against the full post text. "Clear error" = the tag is wrong. "Ambiguous" = a careful reader could defend either answer. **Strict** counts ambiguous as wrong, **lenient** counts it as right. The review was AI-assisted (see `eval/sample_50.csv`, columns `correct_*` / `ambiguous_*` / `notes`).
+
+| Metric (n=50) | Strict | Lenient | Clear errors / ambiguous |
+|---|---|---|---|
+| Role | 94% | 100% | 0 / 3 |
+| City | 92% | 100% | 0 / 4 |
+| Fresher flag | 88% | 96% | 2 / 4 |
+| Role and city both right | 86% | 100% | |
+
+| Cost (paid tier, all runs combined) | |
 |---|---|
-| Role accuracy (n=50) | _tbd_ |
-| City accuracy (n=50) | _tbd_ |
-| Cost per 1,000 posts | _tbd_ |
+| Posts tagged | 1,011 |
+| Tokens in / out | 187,000 / 38,000 (thinking tokens: 0) |
+| Total | about $0.16 |
+| **Per 1,000 posts** | **about $0.15** (free tier: $0) |
+| Steady-state daily cost | only new posts are tagged, usually well under $0.02 |
+
+What the errors show:
+- **Fresher flag is the weakest field.** It missed a "3-4 years" post and rejected a "Freshers to 6 years" post. Posts with a 1-3 year range are a judgment call.
+- **City:** "Mohali" (next to Chandigarh) and posts with no stated location are forced into a bucket. A "Not stated" city would be cleaner.
+- Only 3 of the 50 were predicted not-fresher, so recall on non-fresher posts is not well measured by this sample.
 
 ## Deploy
 
