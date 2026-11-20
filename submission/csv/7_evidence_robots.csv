@@ -1,0 +1,10 @@
+﻿site,robots_url,http_status,date_checked,key_rules_quoted
+unstop,https://unstop.com/robots.txt,200,2026-11-20,Allow: /internship/ | Allow: /job/ | Allow: /api/public/* | Disallow: /api/*
+naukri,https://www.naukri.com/robots.txt,403,2026-11-20,(no rules readable: server refused my bot with this status)
+indeed_in,https://in.indeed.com/robots.txt,200,2026-11-20,User-agent: * | Disallow: /jobs/AE/ | Disallow: /jobs/AQ/ | Disallow: /Jobs/AT/ | Disallow: /jobs/AU/ | Disallow: /jobs/BE/
+glassdoor_in,https://www.glassdoor.co.in/robots.txt,200,2026-11-20,User-agent: * | Disallow: /jobview/ | Disallow: /job-listing/details.htm?* | Disallow: /job-listing/*_IE*.htm | Disallow: /job-listing/JV.htm?* | Disallow: /Job/*_IP*
+linkedin,https://www.linkedin.com/robots.txt,200,2026-11-20,Disallow: / | Disallow: /jobs?runSearch* | Disallow: /jobs/view/externalApply/ | Disallow: /jobs-guest/ | Disallow: /jobs?runSearch* | Disallow: /jobs/view/externalApply/
+internshala,https://internshala.com/robots.txt,200,2026-11-20,User-Agent: * | Disallow: /api/ | Disallow: /internship/details/ | Disallow: /job/details/ | Disallow: /internship/search/ | Disallow: /job/search/
+smartrecruiters_api,https://api.smartrecruiters.com/robots.txt,200,2026-11-20,User-agent: LinkedInBot | Allow: /v1/companies/ | User-agent: * | Disallow: /
+greenhouse_api,https://boards-api.greenhouse.io/robots.txt,200,2026-11-20,User-agent: * | Disallow: /embed/
+lever_api,https://api.lever.co/robots.txt,200,2026-11-20,User-agent: * | Allow: / | Crawl-delay: 1

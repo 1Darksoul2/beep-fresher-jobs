@@ -1,0 +1,32 @@
+﻿platform,board_slug,company,total_jobs,india_jobs,india_entry_level_jobs,entry_share_of_india
+lever,paytm,Paytm,199,174,18,10%
+greenhouse,okta,Okta,372,105,2,2%
+greenhouse,zscaler,Zscaler,382,89,1,1%
+greenhouse,databricks,Databricks,895,78,0,0%
+greenhouse,mongodb,MongoDB,414,70,5,7%
+lever,meesho,Meesho,48,48,0,0%
+greenhouse,inmobi,InMobi,76,46,0,0%
+greenhouse,stripe,Stripe,777,44,12,27%
+ashby,sarvam,Sarvam,43,43,3,7%
+greenhouse,sigmoid,Sigmoid,47,42,1,2%
+greenhouse,highradius,HighRadius,64,41,3,7%
+lever,hevodata,Hevo Data,40,39,4,10%
+greenhouse,gitlab,GitLab,244,32,1,3%
+greenhouse,pubmatic,PubMatic,81,31,1,3%
+lever,zeta,Zeta,33,29,1,3%
+greenhouse,razorpaysoftwareprivatelimited,razorpaysoftwareprivatelimited,29,25,1,4%
+greenhouse,hackerrank,HackerRank,31,16,3,19%
+lever,mindtickle,Mindtickle,19,16,1,6%
+greenhouse,twilio,Twilio,107,15,0,0%
+greenhouse,elastic,Elastic,373,14,2,14%
+greenhouse,glance,Glance,27,14,0,0%
+lever,nium,Nium,31,14,1,7%
+greenhouse,airbnb,Airbnb,201,12,0,0%
+greenhouse,druva,Druva,27,10,0,0%
+lever,cred,CRED,11,10,1,10%
+ashby,spotdraft,SpotDraft,14,10,0,0%
+greenhouse,coinbase,Coinbase,253,9,0,0%
+greenhouse,groww,Groww,9,9,1,11%
+greenhouse,observeai,Observe.AI,10,5,0,0%
+ashby,atlan,Atlan,7,3,0,0%
+lever,pocketfm,Pocket FM,10,2,0,0%

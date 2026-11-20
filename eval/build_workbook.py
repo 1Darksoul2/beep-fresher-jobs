@@ -106,34 +106,49 @@ sheet("Run stats", ["finished_at", "seconds", "collected", "kept after dedupe", 
         (r.get("tagging") or {}).get("posts"), (r.get("tagging") or {}).get("cost_usd")] for r in runs],
       [26, 10, 12, 16, 16, 44, 10, 16, 12])
 
-# ---- Findings tab (draft: the candidate must rewrite in their own words) ----
-fs = wb.create_sheet("What I found", 0)
-fs.column_dimensions["A"].width = 150
-findings = [
-    "WHAT I FOUND  (draft. Rewrite in your own words before submitting.)",
-    "",
-    f"I collected {jobs['count']} fresher jobs and internships from {len({j['company'].lower() for j in jobs['jobs']})} companies. "
-    f"{by_src.get('Unstop', 0) / jobs['count']:.0%} come from Unstop. Naukri, Indeed, Glassdoor, LinkedIn and Internshala do not allow automated collection (robots.txt and terms), so I left them out on purpose.",
-    "",
-    "Company careers pages added far fewer fresher posts than I expected: on the company boards I checked, 87 of 812 India jobs were entry-level, because firms like Stripe and Databricks hire senior people in India. Unstop is built for students, so that is where the volume is.",
-    "",
-    f"Tagging with Gemini 3.5 Flash-Lite costs about ${cost / posts * 1000:.2f} per 1,000 posts (paid prices, {posts:,} posts, ${cost:.2f} total; $0 on the free tier). Only new posts are tagged each day.",
-    "",
-    f"Accuracy on 50 random posts: role {role[0]:.0%}, city {city[0]:.0%}, fresher flag {fresh[0]:.0%} (strict; lenient {role[1]:.0%} / {city[1]:.0%} / {fresh[1]:.0%}). "
-    "The fresher flag is the weakest: it marked a '3-4 years' role as fresher-friendly and rejected a 'freshers to 6 years' role. "
-    "City errors are mostly Mohali (next to Chandigarh) and posts with no location. I would add a 'Not stated' city.",
-    "",
-    "What broke: (1) my company finder matched wrong companies with the same name (Porter, Navi, Slice) until I required at least one India job; "
-    "(2) Gemini returned 'overloaded' errors, so the first tagging run took 31 minutes; retries and splitting failed batches recovered every post; "
-    "(3) some Unstop titles contain broken characters from the source, which I have not cleaned.",
-    "",
-    "Links:  Live site: https://1darksoul2.github.io/beep-fresher-jobs/    Repo: https://github.com/1Darksoul2/beep-fresher-jobs",
-]
-for row in findings:
-    fs.append([row])
-for r in fs.iter_rows():
-    r[0].alignment = Alignment(wrap_text=True, vertical="top")
+# ---- Findings tab: 3 findings, each with where / why it matters / proof (draft: rewrite in your own words) ----
+fs = wb.create_sheet("3 findings", 0)
+for col, w in zip("ABCD", (34, 62, 52, 48)):
+    fs.column_dimensions[col].width = w
+fs.append(["DRAFT: rewrite in your own words before submitting. Every number below is backed by a tab in this file.", "", "", ""])
 fs["A1"].font = Font(bold=True, color="C00000")
+fs.append(["Finding", "What I found", "Where I found it / why it matters", "Proof in this file"])
+for c in fs[2]:
+    c.font, c.fill = HEAD, FILL
+bd = list(csv.DictReader((ROOT / "submission/evidence/board_counts.csv").open(encoding="utf-8-sig")))
+ti, te = sum(int(r["india_jobs"]) for r in bd), sum(int(r["india_entry_level_jobs"]) for r in bd)
+unstop_n, total_n = by_src.get("Unstop", 0), jobs["count"]
+F = [
+ ["1. Almost all the fresher jobs I can legally collect sit on ONE platform",
+  f"{unstop_n} of {total_n} published posts ({unstop_n / total_n:.0%}) come from Unstop. The big job sites do not give automated access: LinkedIn's robots.txt says 'Disallow: /', Glassdoor and Internshala disallow their job pages, SmartRecruiters' API says 'Disallow: /' for every bot except LinkedIn's, and Naukri's robots.txt returned HTTP 403 to my bot. Unstop's robots.txt explicitly allows /api/public/*. I did not check Indeed's terms of service, so I left Indeed out as a precaution.",
+  "Where: the robots.txt file of each site (fetched on the date shown), and the source split on the live page. Why it matters: 'collect 200+ real posts from public sources and respect each site's terms' is only possible because of one student platform. If Unstop changes its rules, this tool loses 95% of its data, and a product built on fresher jobs should plan for that.",
+  "Tab 'Evidence - robots' (quoted rules, dates, HTTP status). Tab 'Summary' (posts by source). Screenshots tab, image 1. Raw files: submission/evidence/robots_*.txt in the repo."],
+ ["2. Company career pages add few fresher posts, and guessing company pages gives wrong matches",
+  f"On the {len(bd)} company job boards I use, {ti:,} jobs are in India but only {te} ({te / ti:.1%}) are entry-level. An earlier probe of my first 20 hand-picked boards gave 87 of 812 (about 11%). Separately, my company finder matched the wrong company for 11 of 39 boards (28%): 'Porter' was a US nurse-staffing board, 'Navi' a San Francisco hardware startup, 'Slice' a team hiring in North Macedonia. Fix: keep a board only if it has at least one India-located job.",
+  "Where: the public Greenhouse, Lever and Ashby job-board APIs, counted per board; the finder's own log (pipeline/discover.py). Why it matters: most hiring pages are built for experienced hires, so a fresher job tool cannot rely on company career pages. And 'looks like the right company' is not proof: without the India-job check, wrong companies would have been shown to students.",
+  "Tab 'Evidence - boards' (total / India / entry-level jobs for every board). Tab 'Run stats'. Dropped boards: slice, pine, porter (Greenhouse and Lever), cloudflare, fi, navi, ditto, pocket, tiger, leap. Code: pipeline/discover.py."],
+ ["3. An LLM tags role and city cheaply and well, but is weakest at judging experience level",
+  f"Gemini 3.5 Flash-Lite cost about ${cost / posts * 1000:.2f} per 1,000 posts ({posts:,} posts, ${cost:.2f} total). On 50 random posts: role {role[0]:.0%}, city {city[0]:.0%}, fresher flag {fresh[0]:.0%} (strict; lenient {role[1]:.0%} / {city[1]:.0%} / {fresh[1]:.0%}). The model also removed 27 of 936 posts (2.9%) that Unstop had labelled fresher but that needed more experience. Its errors: it marked a '3-4 years' Sales Executive as fresher-friendly and rejected a 'Freshers to 6 years' post.",
+  "Where: the tagging runs (token counts and cost are logged on every run) and my read of 50 posts against their full text. Why it matters: tags are cheap enough to run daily on everything, but the experience-level call is the one that decides whether a student sees a job that fits them, so it needs a human check or a stricter rule next.",
+  "Tab 'Accuracy check (50)' (every error and ambiguous row with reasons). Tab 'Run stats' (tokens, cost, dropped posts). Tab 'Prompts' (exact prompt and settings). Screenshots tab, image 5. The review was AI-assisted."],
+]
+for r in F:
+    fs.append(r)
+for row in fs.iter_rows(min_row=3):
+    for c in row:
+        c.alignment = Alignment(wrap_text=True, vertical="top")
+    row[0].font = Font(bold=True)
+
+# ---- Evidence tabs ----
+rb = list(csv.DictReader((ROOT / "submission/evidence/robots_summary.csv").open(encoding="utf-8-sig")))
+sheet("Evidence - robots", ["site", "robots_url", "http_status", "date_checked", "key_rules_quoted"],
+      [[r["site"], r["robots_url"], r["http_status"], r["date_checked"],
+        r["key_rules_quoted"] or "(no rules readable: server refused my bot with this status)"] for r in rb],
+      [22, 48, 12, 14, 120])
+sheet("Evidence - boards", ["platform", "board_slug", "company", "total_jobs", "india_jobs", "india_entry_level_jobs", "entry_share_of_india"],
+      [[r["platform"], r["board_slug"], r["company"], int(r["total_jobs"]), int(r["india_jobs"]),
+        int(r["india_entry_level_jobs"]), r["entry_share_of_india"]] for r in bd],
+      [12, 28, 28, 12, 12, 22, 20])
 
 # ---- Screenshots tab ----
 from openpyxl.drawing.image import Image as XLImage

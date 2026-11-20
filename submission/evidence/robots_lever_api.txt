@@ -1,0 +1,4 @@
+# fetched 2026-11-20 from https://api.lever.co/robots.txt (HTTP 200)
+User-agent: *
+Allow: /
+Crawl-delay: 1
