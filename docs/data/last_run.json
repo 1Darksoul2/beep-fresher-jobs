@@ -1,45 +1,45 @@
 {
- "finished_at": "2026-11-20T07:40:09+00:00",
- "seconds": 149.6,
+ "finished_at": "2026-11-21T07:36:18+00:00",
+ "seconds": 125.2,
  "collected": {
   "unstop": {
-   "count": 923,
-   "seconds": 67.4
+   "count": 918,
+   "seconds": 64.0
   },
   "ats": {
-   "count": 64,
-   "seconds": 19.2
+   "count": 61,
+   "seconds": 29.1
   }
  },
  "dedupe": {
-  "input": 987,
-  "kept": 954,
-  "removed": 33,
+  "input": 979,
+  "kept": 944,
+  "removed": 35,
   "by_reason": {
    "uid": 8,
    "url": 18,
-   "key": 6,
+   "key": 8,
    "fuzzy": 1
   }
  },
  "tagging": {
-  "calls": 7,
-  "posts": 123,
-  "input_tokens": 22665,
-  "output_tokens": 5265,
+  "calls": 5,
+  "posts": 87,
+  "input_tokens": 16236,
+  "output_tokens": 2701,
   "thinking_tokens": 0,
   "failed_batches": 0,
   "model": "gemini-3.5-flash-lite",
-  "cost_usd": 0.01996,
-  "cost_per_1000_posts_usd": 0.1623
+  "cost_usd": 0.01162,
+  "cost_per_1000_posts_usd": 0.1336
  },
- "published": 928,
+ "published": 922,
  "published_by_source": {
+  "Unstop": 880,
   "Ashby": 3,
   "Lever": 25,
-  "Unstop": 883,
-  "Greenhouse": 17
+  "Greenhouse": 14
  },
- "companies": 672,
- "dropped_not_fresher": 26
+ "companies": 684,
+ "dropped_not_fresher": 22
 }
