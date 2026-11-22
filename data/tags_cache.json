@@ -7324,5 +7324,371 @@
   "city": "Bengaluru",
   "is_fresher": true,
   "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822189": {
+  "role": "Sales & Business Development",
+  "city": "Hyderabad",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1821490": {
+  "role": "Operations & Supply Chain",
+  "city": "Thiruvananthapuram",
+  "is_fresher": false,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822069": {
+  "role": "Sales & Business Development",
+  "city": "Other India",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822160": {
+  "role": "Sales & Business Development",
+  "city": "Remote",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822090": {
+  "role": "Operations & Supply Chain",
+  "city": "Mumbai",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1821981": {
+  "role": "Sales & Business Development",
+  "city": "Bengaluru",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822019": {
+  "role": "Marketing & Growth",
+  "city": "Delhi NCR",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1819056": {
+  "role": "Operations & Supply Chain",
+  "city": "Mumbai",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822099": {
+  "role": "Sales & Business Development",
+  "city": "Chandigarh",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822106": {
+  "role": "Sales & Business Development",
+  "city": "Delhi NCR",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1821979": {
+  "role": "Operations & Supply Chain",
+  "city": "Bengaluru",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822509": {
+  "role": "Sales & Business Development",
+  "city": "Remote",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822175": {
+  "role": "Operations & Supply Chain",
+  "city": "Mumbai",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822816": {
+  "role": "Sales & Business Development",
+  "city": "Bengaluru",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822355": {
+  "role": "Sales & Business Development",
+  "city": "Remote",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822281": {
+  "role": "Software Engineering",
+  "city": "Pune",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822101": {
+  "role": "Sales & Business Development",
+  "city": "Bengaluru",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1821953": {
+  "role": "Customer Support & Success",
+  "city": "Chennai",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822007": {
+  "role": "Operations & Supply Chain",
+  "city": "Multiple",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822062": {
+  "role": "Sales & Business Development",
+  "city": "Bengaluru",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1821135": {
+  "role": "AI / Machine Learning",
+  "city": "Delhi NCR",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822710": {
+  "role": "Data Science & Analytics",
+  "city": "Remote",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822171": {
+  "role": "Sales & Business Development",
+  "city": "Indore",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822504": {
+  "role": "Sales & Business Development",
+  "city": "Remote",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822129": {
+  "role": "Operations & Supply Chain",
+  "city": "Delhi NCR",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822044": {
+  "role": "Marketing & Growth",
+  "city": "Bengaluru",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822027": {
+  "role": "HR & Recruiting",
+  "city": "Delhi NCR",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822665": {
+  "role": "Sales & Business Development",
+  "city": "Other India",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822624": {
+  "role": "Consulting & Strategy",
+  "city": "Remote",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822503": {
+  "role": "Marketing & Growth",
+  "city": "Remote",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822157": {
+  "role": "Sales & Business Development",
+  "city": "Remote",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822671": {
+  "role": "Sales & Business Development",
+  "city": "Remote",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822659": {
+  "role": "Software Engineering",
+  "city": "Remote",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822502": {
+  "role": "Content & Writing",
+  "city": "Remote",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822148": {
+  "role": "Sales & Business Development",
+  "city": "Bengaluru",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822709": {
+  "role": "Software Engineering",
+  "city": "Remote",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822711": {
+  "role": "Marketing & Growth",
+  "city": "Remote",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822946": {
+  "role": "Marketing & Growth",
+  "city": "Mumbai",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822584": {
+  "role": "Sales & Business Development",
+  "city": "Remote",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822316": {
+  "role": "Marketing & Growth",
+  "city": "Delhi NCR",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822130": {
+  "role": "Marketing & Growth",
+  "city": "Remote",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1818672": {
+  "role": "Marketing & Growth",
+  "city": "Remote",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822084": {
+  "role": "Marketing & Growth",
+  "city": "Other India",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822048": {
+  "role": "Sales & Business Development",
+  "city": "Remote",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822055": {
+  "role": "Operations & Supply Chain",
+  "city": "Delhi NCR",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822891": {
+  "role": "Sales & Business Development",
+  "city": "Remote",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822942": {
+  "role": "Sales & Business Development",
+  "city": "Remote",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1823005": {
+  "role": "Software Engineering",
+  "city": "Remote",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822636": {
+  "role": "Product Management",
+  "city": "Delhi NCR",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822547": {
+  "role": "Design (UI/UX/Graphic)",
+  "city": "Other India",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822467": {
+  "role": "Design (UI/UX/Graphic)",
+  "city": "Remote",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822115": {
+  "role": "Sales & Business Development",
+  "city": "Delhi NCR",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822092": {
+  "role": "Marketing & Growth",
+  "city": "Remote",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1821423": {
+  "role": "Other",
+  "city": "Remote",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1821120": {
+  "role": "HR & Recruiting",
+  "city": "Bengaluru",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822082": {
+  "role": "Marketing & Growth",
+  "city": "Other India",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822095": {
+  "role": "Marketing & Growth",
+  "city": "Other India",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822052": {
+  "role": "Marketing & Growth",
+  "city": "Remote",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822315": {
+  "role": "Data Science & Analytics",
+  "city": "Remote",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1822585": {
+  "role": "Software Engineering",
+  "city": "Remote",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
+ },
+ "unstop:1820954": {
+  "role": "Marketing & Growth",
+  "city": "Other India",
+  "is_fresher": true,
+  "model": "gemini-3.5-flash-lite"
  }
 }
