@@ -379,5 +379,50 @@
   },
   "companies": 683,
   "dropped_not_fresher": 22
+ },
+ {
+  "finished_at": "2026-11-25T09:00:24+00:00",
+  "seconds": 132.7,
+  "collected": {
+   "unstop": {
+    "count": 880,
+    "seconds": 61.2
+   },
+   "ats": {
+    "count": 61,
+    "seconds": 13.5
+   }
+  },
+  "dedupe": {
+   "input": 941,
+   "kept": 908,
+   "removed": 33,
+   "by_reason": {
+    "uid": 8,
+    "url": 18,
+    "key": 6,
+    "fuzzy": 1
+   }
+  },
+  "tagging": {
+   "calls": 5,
+   "posts": 91,
+   "input_tokens": 17020,
+   "output_tokens": 3685,
+   "thinking_tokens": 0,
+   "failed_batches": 0,
+   "model": "gemini-3.5-flash-lite",
+   "cost_usd": 0.01432,
+   "cost_per_1000_posts_usd": 0.1573
+  },
+  "published": 888,
+  "published_by_source": {
+   "Lever": 27,
+   "Greenhouse": 13,
+   "Unstop": 846,
+   "Ashby": 2
+  },
+  "companies": 694,
+  "dropped_not_fresher": 20
  }
 ]
