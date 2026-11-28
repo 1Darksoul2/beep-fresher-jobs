@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-27T08:57:01+00:00",
- "count": 881,
+ "updated_at": "2026-11-28T08:17:54+00:00",
+ "count": 897,
  "roles": [
   "Software Engineering",
   "Data Science & Analytics",
@@ -45,23 +45,767 @@
   "Multiple"
  ],
  "by_source": {
-  "Unstop": 837,
-  "Lever": 29,
+  "Unstop": 853,
+  "Lever": 30,
   "Greenhouse": 13,
-  "Ashby": 2
+  "Ashby": 1
  },
  "jobs": [
   {
-   "id": "unstop:1830649",
-   "title": "Calling Executive",
-   "company": "InCraftiv Private Limited",
+   "id": "unstop:1831938",
+   "title": "Data Science Internship",
+   "company": "Sclaria",
    "type": "Internship",
    "source": "Unstop",
-   "url": "https://unstop.com/internships/calling-executive-incraftiv-private-limited-1830649",
-   "posted_at": "2026-11-27 14:02:43 GMT+0530",
+   "url": "https://unstop.com/internships/data-science-internship-sclaria-1831938",
+   "posted_at": "2026-11-28 11:54:38 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Data Science & Analytics",
+   "city": "Remote"
+  },
+  {
+   "id": "unstop:1831971",
+   "title": "Production & Assembly Engineer",
+   "company": "Talentcorp solutions pvt ltd",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/production-assembly-engineer-talentcorp-solutions-pvt-ltd-1831971",
+   "posted_at": "2026-11-28 11:51:12 GMT+0530",
+   "location_raw": "Tiruchirappalli",
+   "role": "Core Engineering (Mech/Civil/Electrical)",
+   "city": "Other India"
+  },
+  {
+   "id": "unstop:1831937",
+   "title": "Telesales Internship",
+   "company": "Weskill Edutech Private Limited",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/telesales-internship-weskill-edutech-private-limited-1831937",
+   "posted_at": "2026-11-28 11:43:25 GMT+0530",
+   "location_raw": "Dangs (India), Delhi, Pune",
+   "role": "Sales & Business Development",
+   "city": "Multiple"
+  },
+  {
+   "id": "unstop:1831818",
+   "title": "Business Development Internship",
+   "company": "Rudra Technologies",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/business-development-internship-rudra-technologies-1831818",
+   "posted_at": "2026-11-28 10:02:21 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Sales & Business Development",
+   "city": "Remote"
+  },
+  {
+   "id": "unstop:1831746",
+   "title": "Campus Captain Internship",
+   "company": "Prepyard Technologies",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/campus-captain-internship-prepyard-technologies-1831746",
+   "posted_at": "2026-11-28 09:53:26 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Marketing & Growth",
+   "city": "Remote"
+  },
+  {
+   "id": "unstop:1831744",
+   "title": "International Outbound Voice Process Executive",
+   "company": "Valens1 Global",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/international-outbound-voice-process-executive-valens1-global-1831744",
+   "posted_at": "2026-11-28 09:51:14 GMT+0530",
+   "location_raw": "Gurgaon",
+   "role": "Customer Support & Success",
+   "city": "Delhi NCR"
+  },
+  {
+   "id": "unstop:1831742",
+   "title": "Customer Support Executive",
+   "company": "iSON Xperiences",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/customer-support-executive-ison-xperiences-1831742",
+   "posted_at": "2026-11-28 09:49:50 GMT+0530",
+   "location_raw": "Bangalore",
+   "role": "Customer Support & Success",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "unstop:1831708",
+   "title": "Academic Counsellor (US Market)",
+   "company": "Brightchamps Edutech Company",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/academic-counsellor-us-market-brightchamps-edutech-company-1831708",
+   "posted_at": "2026-11-28 09:48:12 GMT+0530",
+   "location_raw": "Bangalore",
+   "role": "Sales & Business Development",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "unstop:1830265",
+   "title": "Sales & Marketing Internship",
+   "company": "Quantumard",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/sales-marketing-internship-quantumard-1830265",
+   "posted_at": "2026-11-28 09:41:28 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Sales & Business Development",
+   "city": "Remote"
+  },
+  {
+   "id": "unstop:1831375",
+   "title": "Business Development & Outreach Internship",
+   "company": "Cerebral Hacks",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/business-development-outreach-internship-cerebral-hacks-1831375",
+   "posted_at": "2026-11-28 09:39:55 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Sales & Business Development",
+   "city": "Remote"
+  },
+  {
+   "id": "unstop:1831617",
+   "title": "Maps Analyst - Punjabi",
+   "company": "Peroptyx",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/maps-analyst-punjabi-peroptyx-1831617",
+   "posted_at": "2026-11-28 00:57:54 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Data Science & Analytics",
+   "city": "Remote"
+  },
+  {
+   "id": "unstop:1831616",
+   "title": "Data Analyst (Marathi Language Required)",
+   "company": "Peroptyx",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/data-analyst-marathi-language-required-peroptyx-1831616",
+   "posted_at": "2026-11-28 00:56:45 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Data Science & Analytics",
+   "city": "Remote"
+  },
+  {
+   "id": "unstop:1831615",
+   "title": "Odia Speaking Map Evaluator",
+   "company": "Peroptyx",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/odia-speaking-map-evaluator-peroptyx-1831615",
+   "posted_at": "2026-11-28 00:48:23 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Data Science & Analytics",
+   "city": "Remote"
+  },
+  {
+   "id": "unstop:1831603",
+   "title": "Social Media & Video Content Creator Internship",
+   "company": "MyMBill",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/social-media-video-content-creator-internship-mymbill-1831603",
+   "posted_at": "2026-11-28 00:44:06 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Content & Writing",
+   "city": "Remote"
+  },
+  {
+   "id": "unstop:1831598",
+   "title": "Business Development Internship",
+   "company": "MyMBill",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/business-development-internship-mymbill-1831598",
+   "posted_at": "2026-11-28 00:43:03 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Sales & Business Development",
+   "city": "Remote"
+  },
+  {
+   "id": "unstop:1831561",
+   "title": "Digital Marketing Internship",
+   "company": "Skora Media",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/digital-marketing-internship-skora-media-1831561",
+   "posted_at": "2026-11-28 00:11:58 GMT+0530",
+   "location_raw": "Noida",
+   "role": "Marketing & Growth",
+   "city": "Delhi NCR"
+  },
+  {
+   "id": "unstop:1831558",
+   "title": "Agency Growth Manager",
+   "company": "Skora Media",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/agency-growth-manager-skora-media-1831558",
+   "posted_at": "2026-11-28 00:10:37 GMT+0530",
    "location_raw": "Noida",
    "role": "Sales & Business Development",
    "city": "Delhi NCR"
+  },
+  {
+   "id": "unstop:1831515",
+   "title": "Instagram Video Content Creator Internship",
+   "company": "FinanIQ",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/instagram-video-content-creator-internship-finaniq-1831515",
+   "posted_at": "2026-11-27 23:28:03 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Content & Writing",
+   "city": "Remote"
+  },
+  {
+   "id": "unstop:1831509",
+   "title": "Marketing Internship — Social Media & Email Campaigns",
+   "company": "Icecream Labs",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/marketing-internship-social-media-email-campaigns-icecream-labs-1831509",
+   "posted_at": "2026-11-27 23:26:11 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Marketing & Growth",
+   "city": "Remote"
+  },
+  {
+   "id": "unstop:1831510",
+   "title": "Marketing Intern",
+   "company": "Cerebral Hacks",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/marketing-intern-cerebral-hacks-1831510",
+   "posted_at": "2026-11-27 23:18:15 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Marketing & Growth",
+   "city": "Remote"
+  },
+  {
+   "id": "unstop:1825181",
+   "title": "Campus Ambassador",
+   "company": "Indian Institute of Management (IIM), Kozhikode",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/campus-ambassador-backwaters-2027-iim-kozhikodes-management-festival-indian-institute-of-management-iim-kozh-1825181",
+   "posted_at": "2026-11-27 23:11:36 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Marketing & Growth",
+   "city": "Remote"
+  },
+  {
+   "id": "unstop:1831428",
+   "title": "Video Editor Internship",
+   "company": "Juggernaut Infotech",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/video-editor-internship-juggernaut-infotech-1831428",
+   "posted_at": "2026-11-27 23:08:39 GMT+0530",
+   "location_raw": "Ahmedabad",
+   "role": "Content & Writing",
+   "city": "Ahmedabad"
+  },
+  {
+   "id": "unstop:1831269",
+   "title": "Campus Ambassador",
+   "company": "Aadyosh Corporate Private Limited",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/campus-ambassador-aadyosh-corporate-private-limited-1831269",
+   "posted_at": "2026-11-27 21:29:15 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Marketing & Growth",
+   "city": "Remote"
+  },
+  {
+   "id": "unstop:1831209",
+   "title": "Brand & Social Media Marketing Internship",
+   "company": "Creme Castle",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/brand-social-media-marketing-internship-creme-castle-1831209",
+   "posted_at": "2026-11-27 20:26:16 GMT+0530",
+   "location_raw": "Noida",
+   "role": "Marketing & Growth",
+   "city": "Delhi NCR"
+  },
+  {
+   "id": "unstop:1830859",
+   "title": "Social Media Management Internship",
+   "company": "Birch & Co",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/social-media-management-internship-birch-co-1830859",
+   "posted_at": "2026-11-27 19:52:52 GMT+0530",
+   "location_raw": "Delhi, Gurgaon",
+   "role": "Marketing & Growth",
+   "city": "Delhi NCR"
+  },
+  {
+   "id": "unstop:1831204",
+   "title": "Sales Executive",
+   "company": "Santosh Global Group",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/sales-executive-santosh-global-group-1831204",
+   "posted_at": "2026-11-27 19:29:52 GMT+0530",
+   "location_raw": "Delhi",
+   "role": "Sales & Business Development",
+   "city": "Delhi NCR"
+  },
+  {
+   "id": "unstop:1831202",
+   "title": "Sales Internship",
+   "company": "SyncGaze Private Limited",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/sales-internship-work-from-anywhere-syncgaze-private-limited-1831202",
+   "posted_at": "2026-11-27 19:26:44 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Sales & Business Development",
+   "city": "Remote"
+  },
+  {
+   "id": "unstop:1831178",
+   "title": "HR Operations Internship",
+   "company": "Nuest",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/hr-operations-internship-nuest-1831178",
+   "posted_at": "2026-11-27 18:55:15 GMT+0530",
+   "location_raw": "Pune",
+   "role": "HR & Recruiting",
+   "city": "Pune"
+  },
+  {
+   "id": "unstop:1831172",
+   "title": "Field Officer",
+   "company": "Raaho",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/field-officer-raaho-1831172",
+   "posted_at": "2026-11-27 18:51:23 GMT+0530",
+   "location_raw": "Chennai",
+   "role": "Operations & Supply Chain",
+   "city": "Chennai"
+  },
+  {
+   "id": "unstop:1830953",
+   "title": "Telesales",
+   "company": "Digilaw Legal Software Private Limited",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/telesales-digilaw-legal-software-private-limited-1830953",
+   "posted_at": "2026-11-27 17:55:08 GMT+0530",
+   "location_raw": "Alappuzha",
+   "role": "Sales & Business Development",
+   "city": "Other India"
+  },
+  {
+   "id": "unstop:1830965",
+   "title": "Hr Internship",
+   "company": "Edure Learning",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/hr-internship-edure-learning-1830965",
+   "posted_at": "2026-11-27 17:51:14 GMT+0530",
+   "location_raw": "Thiruvananthapuram",
+   "role": "HR & Recruiting",
+   "city": "Thiruvananthapuram"
+  },
+  {
+   "id": "unstop:1830882",
+   "title": "Business Development Associate",
+   "company": "Cogniza Private Limited",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/business-development-associate-cogniza-private-limited-1830882",
+   "posted_at": "2026-11-27 17:50:07 GMT+0530",
+   "location_raw": "Bangalore",
+   "role": "Sales & Business Development",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "unstop:1830978",
+   "title": "E-Commerce Internship",
+   "company": "Unbundl",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/e-commerce-internship-unbundl-1830978",
+   "posted_at": "2026-11-27 17:47:28 GMT+0530",
+   "location_raw": "New Delhi",
+   "role": "Marketing & Growth",
+   "city": "Delhi NCR"
+  },
+  {
+   "id": "unstop:1830960",
+   "title": "Marketing Internship",
+   "company": "AIQoD",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/marketing-internship-aiqod-1830960",
+   "posted_at": "2026-11-27 17:24:52 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Marketing & Growth",
+   "city": "Remote"
+  },
+  {
+   "id": "unstop:1830919",
+   "title": "Electronics Engineer",
+   "company": "Code Your Electronics",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/electronics-engineer-code-your-electronics-1830919",
+   "posted_at": "2026-11-27 17:22:56 GMT+0530",
+   "location_raw": "Jaipur",
+   "role": "Core Engineering (Mech/Civil/Electrical)",
+   "city": "Jaipur"
+  },
+  {
+   "id": "unstop:1827765",
+   "title": "Customer Service Executive – Technical Sales",
+   "company": "BTC Projects",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/customer-service-executive-technical-sales-btc-projects-1827765",
+   "posted_at": "2026-11-27 17:17:43 GMT+0530",
+   "location_raw": "Greater Noida",
+   "role": "Sales & Business Development",
+   "city": "Delhi NCR"
+  },
+  {
+   "id": "unstop:1830935",
+   "title": "Performance Marketing Account Manager",
+   "company": "Upscale Marketing",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/performance-marketing-account-manager-upscale-marketing-1830935",
+   "posted_at": "2026-11-27 17:14:23 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Marketing & Growth",
+   "city": "Remote"
+  },
+  {
+   "id": "unstop:1830937",
+   "title": "B2C Growth & Marketing Internship",
+   "company": "Ticketsque solutions Pvt ltd",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/b2c-growth-marketing-internship-ticketsque-solutions-pvt-ltd-1830937",
+   "posted_at": "2026-11-27 17:10:22 GMT+0530",
+   "location_raw": "Bangalore",
+   "role": "Marketing & Growth",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "unstop:1830920",
+   "title": "Marketing Internship",
+   "company": "Cogniza Private Limited",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/marketing-internship-cogniza-private-limited-1830920",
+   "posted_at": "2026-11-27 17:10:21 GMT+0530",
+   "location_raw": "Bangalore",
+   "role": "Marketing & Growth",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "unstop:1830932",
+   "title": "Student Marketing Internship",
+   "company": "Inspire Leap Private Limited",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/student-marketing-internship-inspire-leap-private-limited-1830932",
+   "posted_at": "2026-11-27 17:08:00 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Marketing & Growth",
+   "city": "Remote"
+  },
+  {
+   "id": "unstop:1830938",
+   "title": "Social Media Marketing Internship",
+   "company": "Rusk Media",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/social-media-marketing-internship-rusk-media-1830938",
+   "posted_at": "2026-11-27 17:07:48 GMT+0530",
+   "location_raw": "Mumbai",
+   "role": "Marketing & Growth",
+   "city": "Mumbai"
+  },
+  {
+   "id": "unstop:1830955",
+   "title": "Campus Brand Advocate - You've got Skin in this Game",
+   "company": "4mation Skins",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/4mation-skins-brand-advocate-youve-got-skin-in-this-game-4mation-skins-1830955",
+   "posted_at": "2026-11-27 17:01:13 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Marketing & Growth",
+   "city": "Remote"
+  },
+  {
+   "id": "unstop:1830814",
+   "title": "Telesales",
+   "company": "Varunya Hospitality Private Limited",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/telesales-varunya-hospitality-private-limited-1830814",
+   "posted_at": "2026-11-27 16:52:46 GMT+0530",
+   "location_raw": "Mumbai",
+   "role": "Customer Support & Success",
+   "city": "Mumbai"
+  },
+  {
+   "id": "unstop:1830857",
+   "title": "DSA Mentor – Java/Python",
+   "company": "Examate",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/dsa-mentor-javapython-examate-1830857",
+   "posted_at": "2026-11-27 16:52:15 GMT+0530",
+   "location_raw": "Achalpur, Addanki, Ammapettai, Bellampalli, West Delhi",
+   "role": "Software Engineering",
+   "city": "Multiple"
+  },
+  {
+   "id": "unstop:1830438",
+   "title": "Business Development Internship",
+   "company": "Roofgenic",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/business-development-internship-roofgenic-1830438",
+   "posted_at": "2026-11-27 16:44:20 GMT+0530",
+   "location_raw": "Ahmedabad",
+   "role": "Sales & Business Development",
+   "city": "Ahmedabad"
+  },
+  {
+   "id": "unstop:1830803",
+   "title": "Marketing and Sales Internship",
+   "company": "Orchid Research",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/marketing-and-sales-internship-orchid-research-1830803",
+   "posted_at": "2026-11-27 16:37:42 GMT+0530",
+   "location_raw": "New Delhi",
+   "role": "Sales & Business Development",
+   "city": "Delhi NCR"
+  },
+  {
+   "id": "unstop:1830746",
+   "title": "Internship for Campus Ambassador",
+   "company": "Whaleora",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/internship-for-campus-ambassador-whaleora-1830746",
+   "posted_at": "2026-11-27 16:27:45 GMT+0530",
+   "location_raw": "Delhi, Mumbai",
+   "role": "Marketing & Growth",
+   "city": "Multiple"
+  },
+  {
+   "id": "unstop:1830748",
+   "title": "Customer Care Executive",
+   "company": "Fastinfo Legal Services Private Limited",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/customer-care-executive-fastinfo-legal-services-private-limited-1830748",
+   "posted_at": "2026-11-27 16:23:24 GMT+0530",
+   "location_raw": "Kolkata",
+   "role": "Customer Support & Success",
+   "city": "Kolkata"
+  },
+  {
+   "id": "unstop:1830794",
+   "title": "Client Servicing Executive",
+   "company": "Karan Communications",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/client-servicing-executive-karan-communications-1830794",
+   "posted_at": "2026-11-27 16:17:02 GMT+0530",
+   "location_raw": "Mumbai",
+   "role": "Marketing & Growth",
+   "city": "Mumbai"
+  },
+  {
+   "id": "unstop:1826161",
+   "title": "Data Entry and Email Marketing Internship",
+   "company": "iSpecia Technologies Private Limited",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/data-entry-and-email-marketing-internship-ispecia-technologies-private-limited-1826161",
+   "posted_at": "2026-11-27 16:14:56 GMT+0530",
+   "location_raw": "Dehradun",
+   "role": "Marketing & Growth",
+   "city": "Other India"
+  },
+  {
+   "id": "unstop:1830812",
+   "title": "Digital Marketing Internship",
+   "company": "Hyscaler",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/digital-marketing-internship-hyscaler-1830812",
+   "posted_at": "2026-11-27 16:08:45 GMT+0530",
+   "location_raw": "Bhubaneswar",
+   "role": "Marketing & Growth",
+   "city": "Bhubaneswar"
+  },
+  {
+   "id": "unstop:1829142",
+   "title": "Software Developer Internship",
+   "company": "Bhai.AR",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/software-developer-internship-bhaiar-1829142",
+   "posted_at": "2026-11-27 16:08:27 GMT+0530",
+   "location_raw": "Bangalore",
+   "role": "Software Engineering",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "unstop:1830816",
+   "title": "Business Operations & Marketing Internship",
+   "company": "Prompt Real Estate Rating and Information Centre Private Limited",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/business-operations-marketing-internship-prompt-real-estate-rating-and-information-centre-private-limited-1830816",
+   "posted_at": "2026-11-27 16:04:36 GMT+0530",
+   "location_raw": "Noida",
+   "role": "Operations & Supply Chain",
+   "city": "Delhi NCR"
+  },
+  {
+   "id": "unstop:1830807",
+   "title": "Associate Centre Manager",
+   "company": "Cure.Fit",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/associate-centre-manager-curefit-1830807",
+   "posted_at": "2026-11-27 16:04:15 GMT+0530",
+   "location_raw": "Bangalore",
+   "role": "Sales & Business Development",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "unstop:1830685",
+   "title": "Graphic Design Internship",
+   "company": "Milagrow Humantech",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/graphic-design-internship-milagrow-humantech-1830685",
+   "posted_at": "2026-11-27 15:59:12 GMT+0530",
+   "location_raw": "New Delhi",
+   "role": "Design (UI/UX/Graphic)",
+   "city": "Delhi NCR"
+  },
+  {
+   "id": "unstop:1830747",
+   "title": "Full Stack Developer Internship",
+   "company": "Myndly AI",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/full-stack-developer-internship-myndly-ai-1830747",
+   "posted_at": "2026-11-27 15:52:29 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Software Engineering",
+   "city": "Remote"
+  },
+  {
+   "id": "unstop:1830808",
+   "title": "Ai Engineer Internship",
+   "company": "maximeyz",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/ai-engineer-internship-maximeyz-1830808",
+   "posted_at": "2026-11-27 15:48:26 GMT+0530",
+   "location_raw": "Mumbai",
+   "role": "Software Engineering",
+   "city": "Mumbai"
+  },
+  {
+   "id": "unstop:1830786",
+   "title": "Founder's Associate",
+   "company": "Novakons Ai Private Limited",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/founders-associate-novakons-ai-private-limited-1830786",
+   "posted_at": "2026-11-27 15:47:59 GMT+0530",
+   "location_raw": "Delhi",
+   "role": "Consulting & Strategy",
+   "city": "Delhi NCR"
+  },
+  {
+   "id": "unstop:1830715",
+   "title": "Accounts Manager / Accounts Assistant",
+   "company": "Guardians Human Resources (OPC) Private Limited",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/accounts-manager-accounts-assistant-guardians-human-resources-opc-private-limited-1830715",
+   "posted_at": "2026-11-27 15:46:02 GMT+0530",
+   "location_raw": "Mumbai",
+   "role": "Finance & Accounting",
+   "city": "Mumbai"
+  },
+  {
+   "id": "unstop:1830667",
+   "title": "Software Engineering & Product Internship",
+   "company": "RawatLabs Tech Private Limited",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/software-engineering-product-internship-rawatlabs-tech-private-limited-1830667",
+   "posted_at": "2026-11-27 15:34:51 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Software Engineering",
+   "city": "Remote"
+  },
+  {
+   "id": "unstop:1830022",
+   "title": "Outreach Internship - AI products",
+   "company": "BuildItOmi (SahooTek)",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/outreach-internship-ai-products-builditomi-sahootek-1830022",
+   "posted_at": "2026-11-27 15:28:13 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Marketing & Growth",
+   "city": "Remote"
+  },
+  {
+   "id": "unstop:1829878",
+   "title": "CAD Engineer Internship",
+   "company": "Techlanz",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/cad-engineer-internship-techlanz-1829878",
+   "posted_at": "2026-11-27 15:21:38 GMT+0530",
+   "location_raw": "Bangalore",
+   "role": "Core Engineering (Mech/Civil/Electrical)",
+   "city": "Bengaluru"
+  },
+  {
+   "id": "unstop:1829880",
+   "title": "Sales Internship - AI Products",
+   "company": "BuildItOmi (SahooTek)",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/sales-internship-ai-products-builditomi-sahootek-1829880",
+   "posted_at": "2026-11-27 15:20:39 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Sales & Business Development",
+   "city": "Remote"
   },
   {
    "id": "unstop:1830654",
@@ -220,18 +964,6 @@
    "city": "Delhi NCR"
   },
   {
-   "id": "unstop:1830450",
-   "title": "AI Product Engineer Trainee",
-   "company": "Valoria Tech",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/ai-product-engineer-trainee-valoria-tech-1830450",
-   "posted_at": "2026-11-27 12:19:01 GMT+0530",
-   "location_raw": "Remote (work from home)",
-   "role": "AI / Machine Learning",
-   "city": "Remote"
-  },
-  {
    "id": "unstop:1830374",
    "title": "BPO Recruiting",
    "company": "Blue Chip HR Solution",
@@ -269,7 +1001,7 @@
   },
   {
    "id": "unstop:1830419",
-   "title": "Work From Home | Business Development Representative",
+   "title": "Business Development Representative",
    "company": "Elvator",
    "type": "Job",
    "source": "Unstop",
@@ -506,18 +1238,6 @@
    "location_raw": "Abrama, Adelaide",
    "role": "Marketing & Growth",
    "city": "Other India"
-  },
-  {
-   "id": "unstop:1829943",
-   "title": "Software Developer Internship",
-   "company": "AI Raccoon",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/software-developer-internship-ai-raccoon-1829943",
-   "posted_at": "2026-11-27 01:07:29 GMT+0530",
-   "location_raw": "Remote (work from home)",
-   "role": "Software Engineering",
-   "city": "Remote"
   },
   {
    "id": "unstop:1829961",
@@ -784,18 +1504,6 @@
    "city": "Multiple"
   },
   {
-   "id": "unstop:1827812",
-   "title": "Campus Marketing Internship",
-   "company": "GroovyIntern",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/campus-marketing-internship-groovyintern-1827812",
-   "posted_at": "2026-11-26 20:09:45 GMT+0530",
-   "location_raw": "Remote (work from home)",
-   "role": "Marketing & Growth",
-   "city": "Remote"
-  },
-  {
    "id": "unstop:1829523",
    "title": "Sales Internship",
    "company": "Roots Realty Infra",
@@ -878,18 +1586,6 @@
    "location_raw": "Mumbai",
    "role": "HR & Recruiting",
    "city": "Mumbai"
-  },
-  {
-   "id": "unstop:1829464",
-   "title": "AI & Digital Innovation Internship",
-   "company": "Ofpeople Foundation",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/ai-digital-innovation-internship-ofpeople-foundation-1829464",
-   "posted_at": "2026-11-26 19:18:07 GMT+0530",
-   "location_raw": "Remote (work from home)",
-   "role": "AI / Machine Learning",
-   "city": "Remote"
   },
   {
    "id": "unstop:1829422",
@@ -1240,18 +1936,6 @@
    "city": "Bengaluru"
   },
   {
-   "id": "unstop:1829208",
-   "title": "Digital Marketing Executive",
-   "company": "Omsom Group",
-   "type": "Job",
-   "source": "Unstop",
-   "url": "https://unstop.com/jobs/digital-marketing-executive-omsom-group-1829208",
-   "posted_at": "2026-11-26 15:46:52 GMT+0530",
-   "location_raw": "Jaipur",
-   "role": "Marketing & Growth",
-   "city": "Jaipur"
-  },
-  {
    "id": "unstop:1829146",
    "title": "Field Sales Executive",
    "company": "Sunfra technologies",
@@ -1322,6 +2006,18 @@
    "location_raw": "Remote (work from home)",
    "role": "Design (UI/UX/Graphic)",
    "city": "Remote"
+  },
+  {
+   "id": "unstop:1829150",
+   "title": "Marketing Manager",
+   "company": "Pyramid eServices",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/marketing-manager-pyramid-eservices-1829150",
+   "posted_at": "2026-11-26 15:17:12 GMT+0530",
+   "location_raw": "Jalandhar",
+   "role": "Marketing & Growth",
+   "city": "Other India"
   },
   {
    "id": "unstop:1829049",
@@ -1744,6 +2440,18 @@
    "city": "Remote"
   },
   {
+   "id": "unstop:1828387",
+   "title": "Business Development Internship",
+   "company": "Solvrex Private Limited",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/business-development-internship-solvrex-private-limited-1828387",
+   "posted_at": "2026-11-25 23:33:38 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Sales & Business Development",
+   "city": "Remote"
+  },
+  {
    "id": "unstop:1828403",
    "title": "Graphic Designer and Video Editor",
    "company": "Manorama Web Solutions Pvt. Ltd",
@@ -1849,18 +2557,6 @@
    "posted_at": "2026-11-25 20:06:11 GMT+0530",
    "location_raw": "Bangalore",
    "role": "Sales & Business Development",
-   "city": "Bengaluru"
-  },
-  {
-   "id": "unstop:1827970",
-   "title": "Business Operations Associate",
-   "company": "Wheelhub Automobiles Pvt Ltd",
-   "type": "Job",
-   "source": "Unstop",
-   "url": "https://unstop.com/jobs/business-operations-associate-wheelhub-automobiles-pvt-ltd-1827970",
-   "posted_at": "2026-11-25 20:00:37 GMT+0530",
-   "location_raw": "Bangalore",
-   "role": "Operations & Supply Chain",
    "city": "Bengaluru"
   },
   {
@@ -2800,18 +3496,6 @@
    "city": "Delhi NCR"
   },
   {
-   "id": "unstop:1823786",
-   "title": "Content Writer Internship",
-   "company": "Comprint Tech Solutions Pvt Ltd",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/content-writer-internship-comprint-tech-solutions-pvt-ltd-1823786",
-   "posted_at": "2026-11-25 10:07:27 GMT+0530",
-   "location_raw": "Mumbai",
-   "role": "Content & Writing",
-   "city": "Mumbai"
-  },
-  {
    "id": "unstop:1827101",
    "title": "Data Analyst Internship",
    "company": "TalentCV",
@@ -2920,18 +3604,6 @@
    "city": "Remote"
   },
   {
-   "id": "unstop:1826907",
-   "title": "Business Development Internship",
-   "company": "Solvrex Private Limited",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/business-development-internship-solvrex-private-limited-1826907",
-   "posted_at": "2026-11-24 23:46:57 GMT+0530",
-   "location_raw": "Remote (work from home)",
-   "role": "Sales & Business Development",
-   "city": "Remote"
-  },
-  {
    "id": "unstop:1826842",
    "title": "Digital Marketing Internship",
    "company": "Airkrit India Pvt. Ltd.",
@@ -2954,6 +3626,18 @@
    "location_raw": "Chennai, Coimbatore",
    "role": "Sales & Business Development",
    "city": "Multiple"
+  },
+  {
+   "id": "unstop:1826826",
+   "title": "Graphic Designer",
+   "company": "Stubborn Factory",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/graphic-designer-stubborn-factory-1826826",
+   "posted_at": "2026-11-24 19:38:17 GMT+0530",
+   "location_raw": "Delhi",
+   "role": "Design (UI/UX/Graphic)",
+   "city": "Delhi NCR"
   },
   {
    "id": "unstop:1825826",
@@ -3064,6 +3748,18 @@
    "city": "Remote"
   },
   {
+   "id": "unstop:1826562",
+   "title": "Web & SEO Internship",
+   "company": "Onevision Study Abroad",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/web-seo-internship-onevision-study-abroad-1826562",
+   "posted_at": "2026-11-24 18:19:29 GMT+0530",
+   "location_raw": "East Delhi",
+   "role": "Software Engineering",
+   "city": "Delhi NCR"
+  },
+  {
    "id": "unstop:1826576",
    "title": "B2B Sales & Business Development Internship",
    "company": "Anantnetra Technology",
@@ -3133,18 +3829,6 @@
    "posted_at": "2026-11-24 18:06:05 GMT+0530",
    "location_raw": "Remote (work from home)",
    "role": "Data Science & Analytics",
-   "city": "Remote"
-  },
-  {
-   "id": "unstop:1826558",
-   "title": "Entertainment Writer Internship",
-   "company": "House of Binge",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/entertainment-writer-internship-house-of-binge-1826558",
-   "posted_at": "2026-11-24 18:05:31 GMT+0530",
-   "location_raw": "Remote (work from home)",
-   "role": "Content & Writing",
    "city": "Remote"
   },
   {
@@ -3377,7 +4061,7 @@
   },
   {
    "id": "unstop:1826124",
-   "title": "Sales Associate Internship",
+   "title": "Sales Associate",
    "company": "TLC DigiTech",
    "type": "Job",
    "source": "Unstop",
@@ -3571,9 +4255,9 @@
    "id": "unstop:1826189",
    "title": "Software Craftsperson Internship",
    "company": "Incubyte",
-   "type": "Job",
+   "type": "Internship",
    "source": "Unstop",
-   "url": "https://unstop.com/jobs/software-craftsperson-internship-incubyte-1826189",
+   "url": "https://unstop.com/internships/software-craftsperson-internship-incubyte-1826189",
    "posted_at": "2026-11-24 14:50:32 GMT+0530",
    "location_raw": "Ahmedabad",
    "role": "Software Engineering",
@@ -3629,7 +4313,7 @@
   },
   {
    "id": "unstop:1826199",
-   "title": "Digital Marketing Executive",
+   "title": "Medical Representative (MR)",
    "company": "Acurela Pharms Limited",
    "type": "Job",
    "source": "Unstop",
@@ -3928,18 +4612,6 @@
    "city": "Remote"
   },
   {
-   "id": "unstop:1825411",
-   "title": "Frontend UI Developer Internship",
-   "company": "Koimilo",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/frontend-ui-developer-internship-koimilo-1825411",
-   "posted_at": "2026-11-24 00:26:26 GMT+0530",
-   "location_raw": "Ajmer, Chhuikhadan",
-   "role": "Software Engineering",
-   "city": "Other India"
-  },
-  {
    "id": "unstop:1825409",
    "title": "Business Development Executive Internship",
    "company": "Aravant Enterprises",
@@ -3950,6 +4622,18 @@
    "location_raw": "Ahmedabad",
    "role": "Sales & Business Development",
    "city": "Ahmedabad"
+  },
+  {
+   "id": "unstop:1825362",
+   "title": "Customer Care Executive",
+   "company": "Linx Inc",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/customer-care-executive-linx-inc-1825362",
+   "posted_at": "2026-11-24 00:18:29 GMT+0530",
+   "location_raw": "Chennai",
+   "role": "Customer Support & Success",
+   "city": "Chennai"
   },
   {
    "id": "unstop:1825371",
@@ -4096,6 +4780,18 @@
    "city": "Bengaluru"
   },
   {
+   "id": "unstop:1824953",
+   "title": "Sales Executive",
+   "company": "Air Records Global",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/sales-executive-air-records-global-1824953",
+   "posted_at": "2026-11-23 19:28:44 GMT+0530",
+   "location_raw": "New Delhi",
+   "role": "Sales & Business Development",
+   "city": "Delhi NCR"
+  },
+  {
    "id": "unstop:1824864",
    "title": "Branch Sales Executive",
    "company": "R.A.K. Retail India Private Limited",
@@ -4142,30 +4838,6 @@
    "location_raw": "Remote (work from home)",
    "role": "Marketing & Growth",
    "city": "Remote"
-  },
-  {
-   "id": "unstop:1823797",
-   "title": "Social Media Marketing Internship",
-   "company": "Comprint Tech Solutions Pvt Ltd",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/social-media-marketing-internship-comprint-tech-solutions-pvt-ltd-1823797",
-   "posted_at": "2026-11-23 19:01:10 GMT+0530",
-   "location_raw": "Mumbai",
-   "role": "Marketing & Growth",
-   "city": "Mumbai"
-  },
-  {
-   "id": "unstop:1823804",
-   "title": "HR Internship",
-   "company": "Instawork Services India Pvt. Ltd",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/hr-internship-instawork-services-india-pvt-ltd-1823804",
-   "posted_at": "2026-11-23 18:58:33 GMT+0530",
-   "location_raw": "Bangalore",
-   "role": "HR & Recruiting",
-   "city": "Bengaluru"
   },
   {
    "id": "unstop:1824853",
@@ -4348,18 +5020,6 @@
    "city": "Pune"
   },
   {
-   "id": "unstop:1823834",
-   "title": "Software Engineering Internship",
-   "company": "Honeywell Technologies",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/software-engineering-internship-honeywell-technologies-1823834",
-   "posted_at": "2026-11-23 17:00:34 GMT+0530",
-   "location_raw": "Bangalore",
-   "role": "Software Engineering",
-   "city": "Bengaluru"
-  },
-  {
    "id": "unstop:1824459",
    "title": "Sales Associate",
    "company": "Ppower Grid",
@@ -4466,18 +5126,6 @@
    "location_raw": "Gurgaon",
    "role": "Sales & Business Development",
    "city": "Delhi NCR"
-  },
-  {
-   "id": "unstop:1821279",
-   "title": "Apprenticeship",
-   "company": "Myntra",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/apprenticeship-myntra-1821279",
-   "posted_at": "2026-11-23 15:05:41 GMT+0530",
-   "location_raw": "Bangalore",
-   "role": "Operations & Supply Chain",
-   "city": "Bengaluru"
   },
   {
    "id": "unstop:1824397",
@@ -4709,7 +5357,7 @@
   },
   {
    "id": "unstop:1823851",
-   "title": "Software Trainee Subject Matter Expert (sme) Internship",
+   "title": "Software Trainee (sme) Intern",
    "company": "Crescify X Solutions",
    "type": "Internship",
    "source": "Unstop",
@@ -5392,6 +6040,18 @@
    "city": "Other India"
   },
   {
+   "id": "unstop:1822069",
+   "title": "MSME ZED Certification Facilitators",
+   "company": "Tech Vimal Corporation Pvt. Ltd.",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/msme-zed-certification-facilitators-tech-vimal-corporation-pvt-ltd-1822069",
+   "posted_at": "2026-11-21 15:03:27 GMT+0530",
+   "location_raw": "",
+   "role": "Sales & Business Development",
+   "city": "Other India"
+  },
+  {
    "id": "unstop:1822082",
    "title": "Marketing Internship",
    "company": "Thaiyari Global Private Limited",
@@ -5596,18 +6256,6 @@
    "city": "Pune"
   },
   {
-   "id": "unstop:1821989",
-   "title": "Sales Manager",
-   "company": "Godigitally.in",
-   "type": "Job",
-   "source": "Unstop",
-   "url": "https://unstop.com/jobs/sales-manager-godigitallyin-1821989",
-   "posted_at": "2026-11-21 12:27:35 GMT+0530",
-   "location_raw": "Ghaziabad, Noida, Delhi, Greater Noida, Gurgaon",
-   "role": "Sales & Business Development",
-   "city": "Delhi NCR"
-  },
-  {
    "id": "unstop:1821277",
    "title": "HR Internship",
    "company": "Avloryn Labs LLP",
@@ -5692,18 +6340,6 @@
    "city": "Remote"
   },
   {
-   "id": "unstop:1821968",
-   "title": "Business Development Executive",
-   "company": "Infibee technologies",
-   "type": "Job",
-   "source": "Unstop",
-   "url": "https://unstop.com/jobs/business-development-executive-infibee-technologies-1821968",
-   "posted_at": "2026-11-21 11:19:09 GMT+0530",
-   "location_raw": "Chennai",
-   "role": "Sales & Business Development",
-   "city": "Chennai"
-  },
-  {
    "id": "unstop:1821117",
    "title": "Content Writer Internship",
    "company": "Flickrise",
@@ -5728,18 +6364,6 @@
    "city": "Other India"
   },
   {
-   "id": "unstop:1820976",
-   "title": "Associate System Support Engineer",
-   "company": "Axcess.io",
-   "type": "Job",
-   "source": "Unstop",
-   "url": "https://unstop.com/jobs/associate-system-support-engineer-axcessio-1820976",
-   "posted_at": "2026-11-21 00:13:12 GMT+0530",
-   "location_raw": "Mumbai, Navi Mumbai",
-   "role": "Software Engineering",
-   "city": "Mumbai"
-  },
-  {
    "id": "unstop:1820011",
    "title": "Business Development & Sales Internship",
    "company": "Kaizenspark Tech",
@@ -5750,18 +6374,6 @@
    "location_raw": "Remote (work from home)",
    "role": "Sales & Business Development",
    "city": "Remote"
-  },
-  {
-   "id": "ashby:sarvam:0a5bf81d-3370-47e6-88f4-14aa5102ba72",
-   "title": "Product User Research, Intern",
-   "company": "Sarvam",
-   "type": "Internship",
-   "source": "Ashby",
-   "url": "https://jobs.ashbyhq.com/sarvam/0a5bf81d-3370-47e6-88f4-14aa5102ba72",
-   "posted_at": "2026-11-20T06:58:20.714+00:00",
-   "location_raw": "Bengaluru",
-   "role": "Design (UI/UX/Graphic)",
-   "city": "Bengaluru"
   },
   {
    "id": "lever:paytm:4e9fab80-dd1f-42c1-a163-8737291e6004",
@@ -5786,6 +6398,18 @@
    "location_raw": "Remote (work from home)",
    "role": "Sales & Business Development",
    "city": "Remote"
+  },
+  {
+   "id": "unstop:1821108",
+   "title": "Business Development Executive/Specialist",
+   "company": "Xicom Technologies",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/business-development-executivespecialist-xicom-technologies-1821108",
+   "posted_at": "2026-11-20 23:36:23 GMT+0530",
+   "location_raw": "Delhi",
+   "role": "Sales & Business Development",
+   "city": "Delhi NCR"
   },
   {
    "id": "unstop:1820938",
@@ -5893,18 +6517,6 @@
    "posted_at": "2026-11-20 18:05:09 GMT+0530",
    "location_raw": "Remote (work from home)",
    "role": "Operations & Supply Chain",
-   "city": "Remote"
-  },
-  {
-   "id": "unstop:1821113",
-   "title": "Sales & Business Development Associate",
-   "company": "Zynvixs Pvt. Ltd.",
-   "type": "Job",
-   "source": "Unstop",
-   "url": "https://unstop.com/jobs/sales-business-development-associate-zynvixs-pvt-ltd-1821113",
-   "posted_at": "2026-11-20 18:04:12 GMT+0530",
-   "location_raw": "Remote (work from home)",
-   "role": "Sales & Business Development",
    "city": "Remote"
   },
   {
@@ -6073,18 +6685,6 @@
    "posted_at": "2026-11-20 16:56:22 GMT+0530",
    "location_raw": "Delhi",
    "role": "Content & Writing",
-   "city": "Delhi NCR"
-  },
-  {
-   "id": "unstop:1820690",
-   "title": "AI Agent Engineer",
-   "company": "Benzara Ecommerce Pvt. Ltd.",
-   "type": "Job",
-   "source": "Unstop",
-   "url": "https://unstop.com/jobs/ai-agent-engineer-benzara-ecommerce-pvt-ltd-1820690",
-   "posted_at": "2026-11-20 16:44:05 GMT+0530",
-   "location_raw": "Noida",
-   "role": "AI / Machine Learning",
    "city": "Delhi NCR"
   },
   {
@@ -6314,18 +6914,6 @@
    "location_raw": "Remote (work from home)",
    "role": "Sales & Business Development",
    "city": "Remote"
-  },
-  {
-   "id": "unstop:1819012",
-   "title": "Founder's Office Internship (Marketing & Strategy)",
-   "company": "Dr.CURA",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/founders-office-internship-marketing-strategy-ghar-ke-paas-career-ke-saath-winter-internships-in-gurgaon-drc-1819012",
-   "posted_at": "2026-11-20 12:12:35 GMT+0530",
-   "location_raw": "Delhi, Faridabad, Ghaziabad, Gurgaon, New Delhi, Noida",
-   "role": "Marketing & Growth",
-   "city": "Delhi NCR"
   },
   {
    "id": "unstop:1820694",
@@ -6832,18 +7420,6 @@
    "city": "Jaipur"
   },
   {
-   "id": "unstop:1817849",
-   "title": "Junior Sound Engineers Internship",
-   "company": "Cynapto Technologies",
-   "type": "Job",
-   "source": "Unstop",
-   "url": "https://unstop.com/jobs/junior-sound-engineers-internship-cynapto-technologies-1817849",
-   "posted_at": "2026-11-19 18:01:26 GMT+0530",
-   "location_raw": "Mumbai",
-   "role": "Core Engineering (Mech/Civil/Electrical)",
-   "city": "Mumbai"
-  },
-  {
    "id": "unstop:1819023",
    "title": "Tele Calling Internship",
    "company": "Formee Holdings",
@@ -7022,18 +7598,6 @@
    "location_raw": "Mumbai, Pune",
    "role": "Operations & Supply Chain",
    "city": "Pune"
-  },
-  {
-   "id": "unstop:1819014",
-   "title": "Business Development Associate",
-   "company": "Skillentrix Technologies",
-   "type": "Job",
-   "source": "Unstop",
-   "url": "https://unstop.com/jobs/business-development-associate-skillentrix-technologies-1819014",
-   "posted_at": "2026-11-19 17:03:23 GMT+0530",
-   "location_raw": "Bangalore",
-   "role": "Sales & Business Development",
-   "city": "Bengaluru"
   },
   {
    "id": "unstop:1819192",
@@ -7288,6 +7852,18 @@
    "city": "Other India"
   },
   {
+   "id": "lever:meesho:73db1822-f3de-4f9f-a2b3-944ea0b03702",
+   "title": "Software Engineer I - Backend (Kirana Club)",
+   "company": "Meesho",
+   "type": "Job",
+   "source": "Lever",
+   "url": "https://jobs.lever.co/meesho/73db1822-f3de-4f9f-a2b3-944ea0b03702",
+   "posted_at": "2026-11-18T11:54:54Z",
+   "location_raw": "Bangalore, Karnataka",
+   "role": "Software Engineering",
+   "city": "Bengaluru"
+  },
+  {
    "id": "lever:hevodata:4eccaf98-ba19-42ea-b040-e0976d4dadfe",
    "title": "Associate SDE",
    "company": "Hevodata",
@@ -7309,30 +7885,6 @@
    "posted_at": "2026-11-18 23:20:49 GMT+0530",
    "location_raw": "Noida",
    "role": "Sales & Business Development",
-   "city": "Delhi NCR"
-  },
-  {
-   "id": "unstop:1817877",
-   "title": "Customer Support Executive",
-   "company": "easy settlement",
-   "type": "Job",
-   "source": "Unstop",
-   "url": "https://unstop.com/jobs/customer-support-executive-easy-settlement-1817877",
-   "posted_at": "2026-11-18 23:19:02 GMT+0530",
-   "location_raw": "Noida",
-   "role": "Customer Support & Success",
-   "city": "Delhi NCR"
-  },
-  {
-   "id": "unstop:1817887",
-   "title": "HR Executive",
-   "company": "Ruloans Distribution Services Private Limited",
-   "type": "Job",
-   "source": "Unstop",
-   "url": "https://unstop.com/jobs/hr-executive-hr-recruiter-ruloans-distribution-services-private-limited-1817887",
-   "posted_at": "2026-11-18 23:17:41 GMT+0530",
-   "location_raw": "Noida",
-   "role": "HR & Recruiting",
    "city": "Delhi NCR"
   },
   {
@@ -7564,18 +8116,6 @@
    "city": "Chennai"
   },
   {
-   "id": "unstop:1817759",
-   "title": "Operations Executive",
-   "company": "myUDAAN",
-   "type": "Job",
-   "source": "Unstop",
-   "url": "https://unstop.com/jobs/operations-executive-myudaan-1817759",
-   "posted_at": "2026-11-18 18:15:42 GMT+0530",
-   "location_raw": "Andheri, Ghatkopar, Mumbai, Powai",
-   "role": "Operations & Supply Chain",
-   "city": "Mumbai"
-  },
-  {
    "id": "unstop:1817761",
    "title": "Business Development Internship",
    "company": "ROI Boosters",
@@ -7586,18 +8126,6 @@
    "location_raw": "Gurgaon",
    "role": "Sales & Business Development",
    "city": "Remote"
-  },
-  {
-   "id": "unstop:1817755",
-   "title": "Sales Associate",
-   "company": "EducoHire",
-   "type": "Job",
-   "source": "Unstop",
-   "url": "https://unstop.com/jobs/sales-associate-educohire-1817755",
-   "posted_at": "2026-11-18 18:13:11 GMT+0530",
-   "location_raw": "Surat",
-   "role": "Sales & Business Development",
-   "city": "Surat"
   },
   {
    "id": "unstop:1817750",
@@ -7948,6 +8476,18 @@
    "city": "Delhi NCR"
   },
   {
+   "id": "unstop:1817409",
+   "title": "Inside Sales Executive",
+   "company": "Vplak",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/inside-sales-executive-vplak-1817409",
+   "posted_at": "2026-11-18 12:18:20 GMT+0530",
+   "location_raw": "Gurgaon",
+   "role": "Sales & Business Development",
+   "city": "Delhi NCR"
+  },
+  {
    "id": "unstop:1817030",
    "title": "Data Analytics Internship",
    "company": "Research Engine",
@@ -8188,6 +8728,30 @@
    "city": "Delhi NCR"
   },
   {
+   "id": "unstop:1815938",
+   "title": "Video Editor",
+   "company": "Mpeoples Business Solutions Pvt Ltd",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/video-editor-mpeoples-business-solutions-pvt-ltd-1815938",
+   "posted_at": "2026-11-17 19:23:31 GMT+0530",
+   "location_raw": "Salem",
+   "role": "Content & Writing",
+   "city": "Other India"
+  },
+  {
+   "id": "unstop:1816021",
+   "title": "Customer Service Representative",
+   "company": "Complete Resources Private Limited",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/customer-service-representative-complete-resources-private-limited-1816021",
+   "posted_at": "2026-11-17 19:08:18 GMT+0530",
+   "location_raw": "Noida",
+   "role": "Customer Support & Success",
+   "city": "Delhi NCR"
+  },
+  {
    "id": "unstop:1816265",
    "title": "Operations Internship",
    "company": "My Indian Things",
@@ -8272,6 +8836,18 @@
    "city": "Mumbai"
   },
   {
+   "id": "unstop:1816230",
+   "title": "Marketing Executive",
+   "company": "POWERFULL ENERGY TRADING PVT. LTD",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/marketing-executive-powerfull-energy-trading-pvt-ltd-1816230",
+   "posted_at": "2026-11-17 17:32:33 GMT+0530",
+   "location_raw": "Greater Noida, Lucknow, Agra",
+   "role": "Marketing & Growth",
+   "city": "Delhi NCR"
+  },
+  {
    "id": "unstop:1816129",
    "title": "Real Estate Sales Internship",
    "company": "Core Space Realtors",
@@ -8332,6 +8908,18 @@
    "city": "Delhi NCR"
   },
   {
+   "id": "unstop:1816055",
+   "title": "Pathway Coordinator",
+   "company": "PRATHAM EDUATION FOUNDATION",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/pathway-coordinator-pratham-eduation-foundation-1816055",
+   "posted_at": "2026-11-17 16:53:49 GMT+0530",
+   "location_raw": "Bangalore",
+   "role": "Operations & Supply Chain",
+   "city": "Bengaluru"
+  },
+  {
    "id": "unstop:1816046",
    "title": "Business Development Executive (BDE)",
    "company": "Ikon remedies pvt ltd",
@@ -8342,6 +8930,18 @@
    "location_raw": "Nagpur",
    "role": "Sales & Business Development",
    "city": "Nagpur"
+  },
+  {
+   "id": "unstop:1815794",
+   "title": "Management Trainee – Business Development",
+   "company": "Webmobril Technologies Pvt. Ltd.",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/management-trainee-business-development-webmobril-technologies-pvt-ltd-1815794",
+   "posted_at": "2026-11-17 16:15:02 GMT+0530",
+   "location_raw": "Noida",
+   "role": "Sales & Business Development",
+   "city": "Delhi NCR"
   },
   {
    "id": "unstop:1815762",
@@ -8438,6 +9038,30 @@
    "location_raw": "Kozhikode",
    "role": "Sales & Business Development",
    "city": "Other India"
+  },
+  {
+   "id": "unstop:1815741",
+   "title": "Financial Advisor",
+   "company": "Market Mentor Research and Academy",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/financial-advisor-market-mentor-research-and-academy-1815741",
+   "posted_at": "2026-11-17 14:58:23 GMT+0530",
+   "location_raw": "Bhopal",
+   "role": "Finance & Accounting",
+   "city": "Other India"
+  },
+  {
+   "id": "unstop:1815736",
+   "title": "Field Sales Executive",
+   "company": "Panacea Healthcare Management",
+   "type": "Job",
+   "source": "Unstop",
+   "url": "https://unstop.com/jobs/field-sales-executive-panacea-healthcare-management-1815736",
+   "posted_at": "2026-11-17 14:56:04 GMT+0530",
+   "location_raw": "Ahmedabad",
+   "role": "Sales & Business Development",
+   "city": "Ahmedabad"
   },
   {
    "id": "unstop:1815740",
@@ -8594,18 +9218,6 @@
    "location_raw": "Thiruvananthapuram",
    "role": "Sales & Business Development",
    "city": "Thiruvananthapuram"
-  },
-  {
-   "id": "unstop:1810555",
-   "title": "Social Media Marketing Internship",
-   "company": "Bombay No.3 Productions",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/social-media-marketing-internship-bombay-no3-productions-1810555",
-   "posted_at": "2026-11-17 11:56:04 GMT+0530",
-   "location_raw": "Mumbai",
-   "role": "Marketing & Growth",
-   "city": "Mumbai"
   },
   {
    "id": "unstop:1814391",
@@ -9184,18 +9796,6 @@
    "city": "Chennai"
   },
   {
-   "id": "unstop:1810789",
-   "title": "Sales & Academic Counselling Internship",
-   "company": "Eduliv",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/sales-academic-counselling-internship-eduliv-1810789",
-   "posted_at": "2026-11-16 11:37:31 GMT+0530",
-   "location_raw": "Remote (work from home)",
-   "role": "Sales & Business Development",
-   "city": "Remote"
-  },
-  {
    "id": "unstop:1812796",
    "title": "Campus Ambassador Internship - Bangalore",
    "company": "Vriona",
@@ -9364,6 +9964,18 @@
    "city": "Pune"
   },
   {
+   "id": "unstop:1811168",
+   "title": "Sales & Marketing Internship – IT & Cloud Services",
+   "company": "Host Graber",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/sales-marketing-internship-it-cloud-services-host-graber-1811168",
+   "posted_at": "2026-11-15 16:31:24 GMT+0530",
+   "location_raw": "Kolkata",
+   "role": "Sales & Business Development",
+   "city": "Kolkata"
+  },
+  {
    "id": "unstop:1811167",
    "title": "Digital Marketing & SEO Internship",
    "company": "Host Graber",
@@ -9386,6 +9998,18 @@
    "location_raw": "Abrama",
    "role": "Marketing & Growth",
    "city": "Other India"
+  },
+  {
+   "id": "unstop:1811669",
+   "title": "Video Editor Internship",
+   "company": "Onyatrips Tech Private Limited",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/video-editor-internship-onyatrips-tech-private-limited-1811669",
+   "posted_at": "2026-11-15 15:39:34 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Content & Writing",
+   "city": "Remote"
   },
   {
    "id": "unstop:1811489",
@@ -9412,159 +10036,15 @@
    "city": "Remote"
   },
   {
-   "id": "unstop:1810873",
-   "title": "Growth Internship",
-   "company": "Hintro",
+   "id": "unstop:1811124",
+   "title": "Design Internship",
+   "company": "FocusMath",
    "type": "Internship",
    "source": "Unstop",
-   "url": "https://unstop.com/internships/growth-internship-hintro-1810873",
-   "posted_at": "2026-11-14 23:01:58 GMT+0530",
+   "url": "https://unstop.com/internships/design-internship-focusmath-1811124",
+   "posted_at": "2026-11-15 00:48:19 GMT+0530",
    "location_raw": "Remote (work from home)",
-   "role": "Marketing & Growth",
-   "city": "Remote"
-  },
-  {
-   "id": "unstop:1810229",
-   "title": "CAD Design Internship - Soft Robotics Mold Design (Fusion 360)",
-   "company": "SwethaReddy Innovations Pvt Ltd",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/cad-design-internship-soft-robotics-mold-design-fusion-360-swethareddy-innovations-pvt-ltd-1810229",
-   "posted_at": "2026-11-14 22:39:03 GMT+0530",
-   "location_raw": "Visakhapatnam",
-   "role": "Core Engineering (Mech/Civil/Electrical)",
-   "city": "Visakhapatnam"
-  },
-  {
-   "id": "unstop:1810718",
-   "title": "Electronics Internship: EMG Signal Acquisition & Sensing Firmware",
-   "company": "SwethaReddy Innovations Pvt Ltd",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/electronics-internship-emg-signal-acquisition-sensing-firmware-swethareddy-innovations-pvt-ltd-1810718",
-   "posted_at": "2026-11-14 21:38:34 GMT+0530",
-   "location_raw": "Visakhapatnam",
-   "role": "Core Engineering (Mech/Civil/Electrical)",
-   "city": "Visakhapatnam"
-  },
-  {
-   "id": "unstop:1810778",
-   "title": "Campus Ambassador",
-   "company": "AADYOSH Corporate Private Limited",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/campus-ambassador-aadyosh-corporate-private-limited-1810778",
-   "posted_at": "2026-11-14 21:14:17 GMT+0530",
-   "location_raw": "Remote (work from home)",
-   "role": "Marketing & Growth",
-   "city": "Remote"
-  },
-  {
-   "id": "unstop:1810803",
-   "title": "Marketing Internship",
-   "company": "Airkrit India Pvt. Ltd.",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/marketing-internship-airkrit-india-pvt-ltd-1810803",
-   "posted_at": "2026-11-14 20:28:55 GMT+0530",
-   "location_raw": "Hāgere Selam",
-   "role": "Marketing & Growth",
-   "city": "Other India"
-  },
-  {
-   "id": "unstop:1810780",
-   "title": "HR Internship",
-   "company": "Fam Job Consultancy Private Limited",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/hr-internship-fam-job-consultancy-private-limited-1810780",
-   "posted_at": "2026-11-14 19:53:37 GMT+0530",
-   "location_raw": "Remote (work from home)",
-   "role": "HR & Recruiting",
-   "city": "Remote"
-  },
-  {
-   "id": "unstop:1810598",
-   "title": "Architectural Internship",
-   "company": "Metis Practice",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/architectural-internship-metis-practice-1810598",
-   "posted_at": "2026-11-14 19:02:59 GMT+0530",
-   "location_raw": "Mumbai",
-   "role": "Core Engineering (Mech/Civil/Electrical)",
-   "city": "Mumbai"
-  },
-  {
-   "id": "unstop:1810525",
-   "title": "Community Connector Executive",
-   "company": "Pratham Infotech Foundation",
-   "type": "Job",
-   "source": "Unstop",
-   "url": "https://unstop.com/jobs/community-connector-executive-pratham-infotech-foundation-1810525",
-   "posted_at": "2026-11-14 17:30:51 GMT+0530",
-   "location_raw": "Mumbai, Navi Mumbai, Thane",
-   "role": "Operations & Supply Chain",
-   "city": "Mumbai"
-  },
-  {
-   "id": "unstop:1810367",
-   "title": "Marketing Internship",
-   "company": "The India Jobs",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/marketing-internship-the-india-jobs-1810367",
-   "posted_at": "2026-11-14 17:10:04 GMT+0530",
-   "location_raw": "Remote (work from home)",
-   "role": "Sales & Business Development",
-   "city": "Remote"
-  },
-  {
-   "id": "unstop:1810547",
-   "title": "B2B Growth Internship",
-   "company": "Curwic",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/b2b-growth-internship-curwic-1810547",
-   "posted_at": "2026-11-14 16:43:49 GMT+0530",
-   "location_raw": "Remote (work from home)",
-   "role": "Sales & Business Development",
-   "city": "Remote"
-  },
-  {
-   "id": "unstop:1810551",
-   "title": "Marketing Internship",
-   "company": "Coy",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/marketing-internship-coy-1810551",
-   "posted_at": "2026-11-14 16:41:57 GMT+0530",
-   "location_raw": "Gurgaon",
-   "role": "Marketing & Growth",
-   "city": "Delhi NCR"
-  },
-  {
-   "id": "unstop:1810530",
-   "title": "Telesales Executive",
-   "company": "Infinity Tech Solutions",
-   "type": "Job",
-   "source": "Unstop",
-   "url": "https://unstop.com/jobs/telesales-executive-infinity-tech-solutions-1810530",
-   "posted_at": "2026-11-14 15:30:03 GMT+0530",
-   "location_raw": "Noida",
-   "role": "Sales & Business Development",
-   "city": "Delhi NCR"
-  },
-  {
-   "id": "unstop:1810520",
-   "title": "Creator & Growth Internship",
-   "company": "Dots-In",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/creator-growth-internship-dots-in-1810520",
-   "posted_at": "2026-11-14 15:14:53 GMT+0530",
-   "location_raw": "Remote (work from home)",
-   "role": "Marketing & Growth",
+   "role": "Design (UI/UX/Graphic)",
    "city": "Remote"
   },
   {
@@ -9580,186 +10060,6 @@
    "city": "Remote"
   },
   {
-   "id": "unstop:1810371",
-   "title": "Customer Support Internship",
-   "company": "Mom Pharmacy",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/customer-support-internship-mom-pharmacy-1810371",
-   "posted_at": "2026-11-14 14:49:14 GMT+0530",
-   "location_raw": "Hyderabad",
-   "role": "Customer Support & Success",
-   "city": "Hyderabad"
-  },
-  {
-   "id": "unstop:1810365",
-   "title": "International Sales Executive",
-   "company": "Policybazaar.com",
-   "type": "Job",
-   "source": "Unstop",
-   "url": "https://unstop.com/jobs/international-sales-executive-policybazaarcom-1810365",
-   "posted_at": "2026-11-14 14:47:25 GMT+0530",
-   "location_raw": "Gurgaon",
-   "role": "Sales & Business Development",
-   "city": "Delhi NCR"
-  },
-  {
-   "id": "unstop:1810361",
-   "title": "Content Writer",
-   "company": "InnogenX",
-   "type": "Job",
-   "source": "Unstop",
-   "url": "https://unstop.com/jobs/content-writer-innogenx-1810361",
-   "posted_at": "2026-11-14 14:45:53 GMT+0530",
-   "location_raw": "Bangalore",
-   "role": "Content & Writing",
-   "city": "Bengaluru"
-  },
-  {
-   "id": "unstop:1810360",
-   "title": "Tele Caller Executive",
-   "company": "Stellaspire",
-   "type": "Job",
-   "source": "Unstop",
-   "url": "https://unstop.com/jobs/tele-caller-executive-stellaspire-1810360",
-   "posted_at": "2026-11-14 14:44:38 GMT+0530",
-   "location_raw": "Indore",
-   "role": "Sales & Business Development",
-   "city": "Indore"
-  },
-  {
-   "id": "unstop:1810223",
-   "title": "Corporate Sales Executive - Travel & MICE ( Field Sales)",
-   "company": "JBN Hospitality Pvt Ltd",
-   "type": "Job",
-   "source": "Unstop",
-   "url": "https://unstop.com/jobs/operations-executive-mice-jbn-hospitality-pvt-ltd-1810223",
-   "posted_at": "2026-11-14 12:56:34 GMT+0530",
-   "location_raw": "West Delhi",
-   "role": "Sales & Business Development",
-   "city": "Delhi NCR"
-  },
-  {
-   "id": "unstop:1810224",
-   "title": "Content Creation & Writer Internship - November 2026",
-   "company": "OurSelfStudy",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/content-creation-writer-internship-november-2026-ourselfstudy-1810224",
-   "posted_at": "2026-11-14 12:54:35 GMT+0530",
-   "location_raw": "Remote (work from home)",
-   "role": "Content & Writing",
-   "city": "Remote"
-  },
-  {
-   "id": "unstop:1761853",
-   "title": "Founder's Office Internship",
-   "company": "Proviyaa Global",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/founders-office-internship-proviyaa-global-1761853",
-   "posted_at": "2026-11-14 12:53:14 GMT+0530",
-   "location_raw": "Hyderabad, Latur, Mumbai, Pune",
-   "role": "Consulting & Strategy",
-   "city": "Multiple"
-  },
-  {
-   "id": "unstop:1810220",
-   "title": "Business Development Executive",
-   "company": "Anant Airways",
-   "type": "Job",
-   "source": "Unstop",
-   "url": "https://unstop.com/jobs/business-development-executive-anant-airways-1810220",
-   "posted_at": "2026-11-14 11:45:31 GMT+0530",
-   "location_raw": "Noida",
-   "role": "Sales & Business Development",
-   "city": "Delhi NCR"
-  },
-  {
-   "id": "unstop:1810196",
-   "title": "Marketing Internship",
-   "company": "CredFlow",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/marketing-internship-credflow-1810196",
-   "posted_at": "2026-11-14 11:07:01 GMT+0530",
-   "location_raw": "Noida, Delhi",
-   "role": "Marketing & Growth",
-   "city": "Delhi NCR"
-  },
-  {
-   "id": "unstop:1810152",
-   "title": "Software Testing Internship",
-   "company": "ePool Solutions LLP",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/software-testing-internship-epool-solutions-llp-1810152",
-   "posted_at": "2026-11-14 11:00:08 GMT+0530",
-   "location_raw": "Remote (work from home)",
-   "role": "Software Engineering",
-   "city": "Remote"
-  },
-  {
-   "id": "unstop:1810078",
-   "title": "Full Stack Developer Internship",
-   "company": "Cognirex Solutions",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/full-stack-developer-internship-cognirex-solutions-1810078",
-   "posted_at": "2026-11-14 10:43:59 GMT+0530",
-   "location_raw": "Achalpur",
-   "role": "Software Engineering",
-   "city": "Other India"
-  },
-  {
-   "id": "unstop:1810011",
-   "title": "Sales Internship",
-   "company": "Artigence Healthcare",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/sales-internship-artigence-healthcare-1810011",
-   "posted_at": "2026-11-14 09:20:20 GMT+0530",
-   "location_raw": "Remote (work from home)",
-   "role": "Sales & Business Development",
-   "city": "Remote"
-  },
-  {
-   "id": "unstop:1809804",
-   "title": "HR Internship",
-   "company": "Cravely Foods",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/hr-internship-cravely-foods-1809804",
-   "posted_at": "2026-11-14 09:20:10 GMT+0530",
-   "location_raw": "Remote (work from home)",
-   "role": "HR & Recruiting",
-   "city": "Remote"
-  },
-  {
-   "id": "unstop:1809668",
-   "title": "Full Stack Developer Internship",
-   "company": "SDM Technology Private Limited",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/full-stack-developer-internship-sdm-technology-private-limited-1809668",
-   "posted_at": "2026-11-14 00:44:53 GMT+0530",
-   "location_raw": "Remote (work from home)",
-   "role": "Software Engineering",
-   "city": "Nagpur"
-  },
-  {
-   "id": "unstop:1809494",
-   "title": "Business Development Internship",
-   "company": "Korvexia Technologies",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/business-development-internship-korvexia-technologies-1809494",
-   "posted_at": "2026-11-13 23:08:27 GMT+0530",
-   "location_raw": "Remote (work from home)",
-   "role": "Sales & Business Development",
-   "city": "Remote"
-  },
-  {
    "id": "unstop:1809347",
    "title": "Data Analytics Internship",
    "company": "Vortizo AI",
@@ -9769,30 +10069,6 @@
    "posted_at": "2026-11-13 22:08:14 GMT+0530",
    "location_raw": "Remote (work from home)",
    "role": "Data Science & Analytics",
-   "city": "Remote"
-  },
-  {
-   "id": "unstop:1809143",
-   "title": "Software Engineer Intern",
-   "company": "Coy",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/software-engineer-intern-coy-1809143",
-   "posted_at": "2026-11-13 20:11:30 GMT+0530",
-   "location_raw": "Gurgaon",
-   "role": "Software Engineering",
-   "city": "Delhi NCR"
-  },
-  {
-   "id": "unstop:1808061",
-   "title": "Content Designer Internship",
-   "company": "FocusMath",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/content-designer-internship-focusmath-1808061",
-   "posted_at": "2026-11-13 11:49:03 GMT+0530",
-   "location_raw": "Remote (work from home)",
-   "role": "Content & Writing",
    "city": "Remote"
   },
   {
@@ -10060,18 +10336,6 @@
    "city": "Remote"
   },
   {
-   "id": "unstop:1791205",
-   "title": "Full Stack Developer Internship",
-   "company": "Zenotalent",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/full-stack-developer-internship-zenotalent-1791205",
-   "posted_at": "2026-11-02 15:44:22 GMT+0530",
-   "location_raw": "Chennai, Cochin, Hyderabad, Noida, Pune",
-   "role": "Software Engineering",
-   "city": "Multiple"
-  },
-  {
    "id": "unstop:1790098",
    "title": "Digital Marketing Internship",
    "company": "Sanyukt Organisation",
@@ -10132,18 +10396,6 @@
    "city": "Pune"
   },
   {
-   "id": "unstop:1783722",
-   "title": "Full Stack Developer Internship",
-   "company": "Confluent Solutions",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/full-stack-developer-internship-confluent-solutions-1783722",
-   "posted_at": "2026-10-29 12:54:44 GMT+0530",
-   "location_raw": "Bangalore",
-   "role": "Software Engineering",
-   "city": "Bengaluru"
-  },
-  {
    "id": "unstop:1783259",
    "title": "Developer Advocate Internship: AI Observability",
    "company": "Moonshot Factory Inc.",
@@ -10178,78 +10430,6 @@
    "location_raw": "Mohali",
    "role": "Customer Support & Success",
    "city": "Other India"
-  },
-  {
-   "id": "unstop:1782320",
-   "title": "Sales Internship",
-   "company": "Bharat Ecofuels Pvt Ltd",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/sales-internship-bharat-ecofuels-pvt-ltd-1782320",
-   "posted_at": "2026-10-28 19:54:39 GMT+0530",
-   "location_raw": "Noida",
-   "role": "Sales & Business Development",
-   "city": "Delhi NCR"
-  },
-  {
-   "id": "unstop:1782533",
-   "title": "Internship Delegate - Student Representative",
-   "company": "The Learning Stage",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/campus-delegate-internship-the-learning-stage-1782533",
-   "posted_at": "2026-10-28 19:51:19 GMT+0530",
-   "location_raw": "Remote (work from home)",
-   "role": "Marketing & Growth",
-   "city": "Remote"
-  },
-  {
-   "id": "unstop:1781368",
-   "title": "Founder’s Office Internship",
-   "company": "MSKARD Business Solutions",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/founders-office-internship-mskard-business-solutions-1781368",
-   "posted_at": "2026-10-28 00:53:37 GMT+0530",
-   "location_raw": "Greater Noida",
-   "role": "Consulting & Strategy",
-   "city": "Delhi NCR"
-  },
-  {
-   "id": "unstop:1780714",
-   "title": "Business Development Internship",
-   "company": "The Learning Stage",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/business-development-internship-the-learning-stage-1780714",
-   "posted_at": "2026-10-27 18:34:22 GMT+0530",
-   "location_raw": "Hyderabad",
-   "role": "Sales & Business Development",
-   "city": "Hyderabad"
-  },
-  {
-   "id": "unstop:1780789",
-   "title": "HR Internship",
-   "company": "Credit Samadhaan",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/hr-internship-credit-samadhaan-1780789",
-   "posted_at": "2026-10-27 17:21:14 GMT+0530",
-   "location_raw": "Indore",
-   "role": "HR & Recruiting",
-   "city": "Indore"
-  },
-  {
-   "id": "unstop:1780744",
-   "title": "Sales Internship",
-   "company": "Grad Filter",
-   "type": "Internship",
-   "source": "Unstop",
-   "url": "https://unstop.com/internships/sales-internship-gradfilter-1780744",
-   "posted_at": "2026-10-27 17:19:16 GMT+0530",
-   "location_raw": "Bangalore",
-   "role": "Sales & Business Development",
-   "city": "Bengaluru"
   },
   {
    "id": "ashby:sarvam:bba82f34-1544-421e-a393-3edd8a5f4cb2",
@@ -10514,6 +10694,18 @@
    "location_raw": "Bengaluru, India",
    "role": "Sales & Business Development",
    "city": "Bengaluru"
+  },
+  {
+   "id": "unstop:1685517",
+   "title": "Founding Technical Content Lead Internship",
+   "company": "3SVK",
+   "type": "Internship",
+   "source": "Unstop",
+   "url": "https://unstop.com/internships/founding-technical-content-lead-internship-3svk-1685517",
+   "posted_at": "2026-05-12 22:32:07 GMT+0530",
+   "location_raw": "Remote (work from home)",
+   "role": "Content & Writing",
+   "city": "Remote"
   },
   {
    "id": "lever:paytm:9d497980-2032-440c-8bac-63fb53938acc",
